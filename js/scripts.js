@@ -101,17 +101,45 @@ $(document).ready(function() {
 	});
 
 	$('.technical-expertise-wp1').waypoint(function() {
-		$('.technical-expertise-wp1').addClass('animated slideInLeft');
+		var elements = $('.technical-expertise-wp1');
+		var i;
+		console.log("elements",elements)
+		for (i = 0; i < elements.length; i++) {
+			console.log("i",i)
+			var width = elements[i].getAttribute("data-percent");
+			console.log("width", width);
+			elements[i].style.width = width+"%";
+		}
+
+		//.addClass('animated slideInLeft');
 	}, {
 		offset: '75%'
 	});
 	$('.technical-expertise-wp2').waypoint(function() {
-		$('.technical-expertise-wp2').addClass('animated slideInLeft');
+		var elements = $('.technical-expertise-wp2');
+		var i;
+		console.log("elements",elements)
+		for (i = 0; i < elements.length; i++) {
+			console.log("i",i)
+			var width = elements[i].getAttribute("data-percent");
+			console.log("width", width);
+			elements[i].style.width = width+"%";
+		}
+
 	}, {
 		offset: '75%'
 	});
 	$('.technical-expertise-wp3').waypoint(function() {
-		$('.technical-expertise-wp3').addClass('animated slideInLeft');
+		var elements = $('.technical-expertise-wp3');
+		var i;
+		console.log("elements",elements)
+		for (i = 0; i < elements.length; i++) {
+			console.log("i",i)
+			var width = elements[i].getAttribute("data-percent");
+			console.log("width", width);
+			elements[i].style.width = width+"%";
+		}
+
 	}, {
 		offset: '75%'
 	});

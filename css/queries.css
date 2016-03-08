@@ -192,8 +192,17 @@
 		margin: 0;
 	}
 
-	.features {
-		padding-bottom: 0;
+	.education,
+	.work-experience {
+		padding-bottom: 60px;
+	}
+	.education-image,
+	.work-experience-image{
+			padding:40px;
+	}
+	.education-image img,
+	.work-experience-image img{
+		max-height: 70px;
 	}
 
 	.features .device-showcase,
@@ -260,21 +269,32 @@
 
 	@media screen and (max-width:480px) {
 		.hero .hero-content {
-			padding-top: 41%;
+			padding-top: 50%;
 		}
-
+		.hero .logo a p {
+			font-size: 12px;
+		}
 		.hero .btn {
 			display: block;
 			width: 80%;
 			margin: 0 auto;
 		}
-
+		.aboutme .avatar {
+		    position: static;
+		    margin: 0 auto 30px;
+		}
+		.aboutme h1{
+    	margin: 0 0 30px 0;
+		}
+		.aboutme p{
+    	margin: 0 0 30px 0;
+		}
 		.hero .btn:first-of-type {
 			margin-bottom: 20px;
 		}
 
 		.hero h1 {
-			font-size: 50px;
+			font-size: 40px;
 		}
 
 		.btn-margin-right {

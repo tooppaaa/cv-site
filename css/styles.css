@@ -268,10 +268,7 @@ Waypoinsts
 .work-experience-wp2-left,
 .work-experience-wp2-right,
 .work-experience-wp3-left,
-.work-experience-wp3-right,
-.technical-expertise-wp1,
-.technical-expertise-wp2,
-.technical-expertise-wp3 {
+.work-experience-wp3-right {
   visibility: hidden; }
 
 .education-wp1-right,
@@ -285,11 +282,15 @@ Waypoinsts
 
 .technical-expertise-wp2 {
   -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s; }
+  animation-delay: 0.5s;
+  -webkit-transition-delay: 0.5s;
+  /* Safari */
+  transition-delay: 0.5s; }
 
 .technical-expertise-wp3 {
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s; }
+  -webkit-transition-delay: 1s;
+  /* Safari */
+  transition-delay: 1s; }
 
 .wp2 {
   -webkit-animation-delay: 0.3s;
@@ -608,11 +609,13 @@ Intro
 ========================================================================== */
 .technical-expertise {
   background-color: #F3F4F8;
-  padding: 80px 0; }
+  padding: 60px 0; }
   .technical-expertise h1 {
     padding: 20px 0 40px; }
+  .technical-expertise h2 {
+    padding-top: 20px; }
   .technical-expertise .technical-list {
-    padding: 0px 15px; }
+    padding: 0 15px; }
     .technical-expertise .technical-list .technical-item {
       padding: 15px 0 5px;
       border-bottom: solid 1px #E6E9EA; }
@@ -628,24 +631,19 @@ Intro
         background: #38BFFD;
         border-radius: 15px;
         width: 100%;
-        height: 15px;
-        overflow: hidden; }
+        height: 15px; }
         .technical-expertise .technical-list .technical-item .progress-bar .progress-content {
           background: #0288D1;
-          margin-top: -3px;
-          height: 21px;
+          margin-top: -4px;
+          height: 23px;
           border-radius: 15px;
-          border: 2px solid #F3F4F8; }
-        .technical-expertise .technical-list .technical-item .progress-bar .progress-100 {
-          width: 100%; }
-        .technical-expertise .technical-list .technical-item .progress-bar .progress-82 {
-          width: 82%; }
-        .technical-expertise .technical-list .technical-item .progress-bar .progress-66 {
-          width: 66%; }
-        .technical-expertise .technical-list .technical-item .progress-bar .progress-50 {
-          width: 50%; }
-        .technical-expertise .technical-list .technical-item .progress-bar .progress-17 {
-          width: 17%; }
+          border: 2px solid #F3F4F8;
+          width: 5%;
+          -webkit-transition: width 2s;
+          /* Safari */
+          transition: width 2s; }
+        .technical-expertise .technical-list .technical-item .progress-bar .percentage {
+          visibility: hidden; }
 
 /* ==========================================================================
 To top
