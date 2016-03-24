@@ -212,7 +212,8 @@ Waypoinsts
 .fadeInLeft,
 .fadeInRight,
 .bounceInDown,
-.slideInLeft {
+.slideInLeft,
+.zoomIn {
   visibility: visible;
 }
 /* ==========================================================================
@@ -1266,4 +1267,13 @@ Time line
 .cd-icon {
   line-height: 40px;
   color: $accent-color;
+}
+
+.section-header{
+  line-height: 40px;
+  font-size: 45px;
+  text-align:center;
+  padding-bottom:20px;
+  text-transform: uppercase;
+  margin-top:0px;
 }
