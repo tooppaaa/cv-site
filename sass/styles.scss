@@ -361,7 +361,7 @@ header {
     display: inline-block;
   }
   ul.primary-nav {
-    margin: 0 0 0 60px;
+    margin: 0 0 0 40px;
     padding: 0;
     li {
       display: inline;
@@ -386,6 +386,11 @@ header {
           color: $accent-color;
         }
       }
+      .active{
+        color: $accent-color;
+      }
+
+
     }
   }
   .header-nav {
@@ -396,6 +401,10 @@ header {
     right: 0;
     top: 41px;
     transition: all 300ms ease-in-out;
+
+    .btn-white {
+      margin-right:10px;
+    }
   }
 }
 .down-arrow {
