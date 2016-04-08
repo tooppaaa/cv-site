@@ -26,9 +26,9 @@ $lang['HERO_CONTACT'] = 'Contact';
 //About me
 $lang['ABOUT_TITLE'] = 'DÉVELOPPEUR LOGICIEL &amp; FRONT-END PARIS';
 $lang['ABOUT_P1'] = 'Hey, Je suis Clement Dungler! Un développeur logiciel et front-end enthousiaste et motivé en provenance de Paris. Je suis passionné par la création d\'expériences utilisateurs agréables en utilisant des outils novateurs. La communication et une attitude positive sont pour moi, des valeurs clés dans la réussite d\'un projet.';
-$lang['ABOUT_P2'] = 'Travaillant actuellement chez <a href="http://www.solitonit.com/" class="domain">Soliton IT</a> en tant que développeur logiciel, Je mets en pratique mes connaissances, en créant des sites internet, logiciel et applications mobile';
+$lang['ABOUT_P2'] = 'Travaillant actuellement chez <a href="http://www.solitonit.com/" class="domain">Soliton IT</a> en tant que développeur logiciel, je mets en pratique mes connaissances, en créant des sites internet, logiciel et applications mobile';
 $lang['ABOUT_S1_TITLE'] = 'Logiciel';
-$lang['ABOUT_S1_CONTENT'] = 'Je suis passioné par la création de logiciel agréable à utiliser avec une architecture et un design réflechi en utilisant la puissance des languages orientés objects.';
+$lang['ABOUT_S1_CONTENT'] = 'Je suis passioné par la création de logiciel agréable à utiliser avec une architecture et un design réflechi en utilisant la puissance des langages orientés objects.';
 $lang['ABOUT_S2_TITLE'] = 'Front-end';
 $lang['ABOUT_S2_CONTENT'] = 'J\'adore créer des interfaces utilisateur offrant une expérience agréable par l\'utilisation des dernières technologies en se concentrant sur HTML5, CSS3, JS.';
 $lang['ABOUT_S3_TITLE'] = 'Design adapté';
@@ -51,8 +51,8 @@ $lang['EXPERIENCE_E1_DATES'] = 'Oct 2013 - Maintenant @ Hemel Hempstead (UK) / B
 $lang['EXPERIENCE_E1_TITLE'] = 'Développeur logiciel';
 $lang['EXPERIENCE_E1_DESC1'] = 'Développement front-end et back-end';
 $lang['EXPERIENCE_E1_DESC1_1'] = 'Création et déploiement du site de support de l\'entreprise. La partie front-end utilise les concepts de "material design". La partie back-end est une Web API Microsoft .NET <a href="http://178.21.237.178:8080" target="blank">lien</a>';
-$lang['EXPERIENCE_E1_DESC1_2'] = 'Remaniement du site web de l\'entreprise. Multi-langue, design adapté <a href="http://www.solitonit.com" target="blank">lien</a>';
-$lang['EXPERIENCE_E1_DESC1_3'] = 'Définition, création et déploiement en tant que web application d\'une application mobile pour different hôpitaux';
+$lang['EXPERIENCE_E1_DESC1_2'] = 'Remaniement du site web de l\'entreprise. Multi-langues, design adapté <a href="http://www.solitonit.com" target="blank">lien</a>';
+$lang['EXPERIENCE_E1_DESC1_3'] = 'Définition, création et déploiement en tant que web application d\'une application mobile pour différent hôpitaux';
 $lang['EXPERIENCE_E1_DESC2'] = 'Développement logiciel';
 $lang['EXPERIENCE_E1_DESC2_1'] = 'Définition, implémentation et test de nouveaux modules pour le système d\'information du département de radiologie des hôpitaux';
 $lang['EXPERIENCE_E1_DESC2_2'] = 'Résolution de bugs et améliorations générales';
@@ -67,11 +67,11 @@ $lang['EXPERIENCE_E3_COMPANY'] = 'AMES (Aircraft Maintenance Engineering Service
 $lang['EXPERIENCE_E3_DATES'] = 'Vacances 2011 - 2012 @ Saint-Louis, France';
 $lang['EXPERIENCE_E3_TITLE'] = 'Assistant ingénieur';
 $lang['EXPERIENCE_E3_DESC1'] = 'Développement d\'applications Java, modification d\'un site web sous Joomla';
-$lang['EXPERIENCE_E3_DESC2'] = 'Génération automatique et export de documents de maintenance d\'avion et publication sur un site web';
+$lang['EXPERIENCE_E3_DESC2'] = 'Génération automatique et export de documents de maintenance d\'avions et publication sur un site web';
 
 //Expertise
 $lang['EXPERTISE_TITLE'] = 'Expertise';
-$lang['EXPERTISE_LANGUAGES'] = 'Languages';
+$lang['EXPERTISE_LANGUAGES'] = 'Langages';
 $lang['EXPERTISE_YEARS'] = 'années';
 $lang['EXPERTISE_CS'] = 'C#';
 $lang['EXPERTISE_WPF'] = 'WPF';
@@ -80,7 +80,7 @@ $lang['EXPERTISE_WEBAPI'] = 'Web API';
 $lang['EXPERTISE_HTML'] = 'HTML 5, CSS 3, JS';
 $lang['EXPERTISE_SQL'] = 'SQL';
 $lang['EXPERTISE_JAVA'] = 'Java';
-$lang['EXPERTISE_SOFTWARE'] = 'Logiciel';
+$lang['EXPERTISE_SOFTWARE'] = 'Logiciels';
 $lang['EXPERTISE_VS'] = 'Visual Studio';
 $lang['EXPERTISE_SQLSERVER'] = 'SQL Server';
 $lang['EXPERTISE_GIT'] = 'Sourcetree (git)';
