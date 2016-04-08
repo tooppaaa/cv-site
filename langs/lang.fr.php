@@ -25,8 +25,8 @@ $lang['HERO_CONTACT'] = 'Contact';
 
 //About me
 $lang['ABOUT_TITLE'] = 'DÉVELOPPEUR LOGICIEL &amp; FRONT-END PARIS';
-$lang['ABOUT_P1'] = 'Hey, Je suis Clement Dungler! Un développeur logiciel et front-end enthousiaste et motivé en provenance de Paris. Je suis passionné par la création d\'expériences utilisateurs agréables en utilisant des outils novateurs. La communication et une attitude positive sont pour moi, des valeurs clés pour la réussite d\'un projet.';
-$lang['ABOUT_P2'] = 'Actuellement travaillant chez <a href="http://www.solitonit.com/" class="domain">Soliton IT</a> en tant que développeur logiciel, Je met en pratique mes connaissances, en créant des sites internet, logiciel et applications mobile';
+$lang['ABOUT_P1'] = 'Hey, Je suis Clement Dungler! Un développeur logiciel et front-end enthousiaste et motivé en provenance de Paris. Je suis passionné par la création d\'expériences utilisateurs agréables en utilisant des outils novateurs. La communication et une attitude positive sont pour moi, des valeurs clés dans la réussite d\'un projet.';
+$lang['ABOUT_P2'] = 'Travaillant actuellement chez <a href="http://www.solitonit.com/" class="domain">Soliton IT</a> en tant que développeur logiciel, Je met en pratique mes connaissances, en créant des sites internet, logiciel et applications mobile';
 $lang['ABOUT_S1_TITLE'] = 'Logiciel';
 $lang['ABOUT_S1_CONTENT'] = 'Je suis passioné par la creation de logiciel agréable à utiliser avec une architecture et un design réflechit en utilisant la puissance des languages orientés objects.';
 $lang['ABOUT_S2_TITLE'] = 'Front-end';
@@ -58,7 +58,7 @@ $lang['EXPERIENCE_E1_DESC2_1'] = 'Définition, implémentation et test de nouvea
 $lang['EXPERIENCE_E1_DESC2_2'] = 'Résolution de bugs et améliorations générales';
 $lang['EXPERIENCE_E1_DESC2_3'] = 'Remaniement de l\'interface utilisateur';
 $lang['EXPERIENCE_E2_COMPANY'] = 'Airbus';
-$lang['EXPERIENCE_E2_DATES'] = 'Mar 2013 - Aug 2013 @ Toulouse, France';
+$lang['EXPERIENCE_E2_DATES'] = 'Mar 2013 - Août 2013 @ Toulouse, France';
 $lang['EXPERIENCE_E2_TITLE'] = 'Stagiaire développeur logiciel';
 $lang['EXPERIENCE_E2_DESC1'] = 'Amélioration d\'une solution, étude de l\'éxistant et de son context';
 $lang['EXPERIENCE_E2_DESC2'] = 'Faisabilité et propositions techniques, développement en ASP .NET et SQL Server, test et validation';
@@ -97,7 +97,7 @@ $lang['EXPERTISE_INDEPENDANT_DESC'] = 'Complètement';
 $lang['HOBBIES_H1_TITLE'] = 'Cuisine';
 $lang['HOBBIES_H1_DESC'] = 'En tant que bon Français, bien manger est vraiment important pour moi. Même dans ma petite cuisine, cela ne me dérange pas de cuisiner des plats qui exigent une longue préparation.';
 $lang['HOBBIES_H2_TITLE'] = 'Course à pied';
-$lang['HOBBIES_H2_DESC'] = 'J\'ai commencé à courir il y a plus d\'un an. Travaillant depuis mon domicile, j\'ai eu besoin d\'une raison pour sortir chaque jour. J\'ai rapidement décidé de préparer un semi-marathong que j\'ai completé en 2 heures en octobre dernier. Je cours toujours et continu d\'essayer d\'améliorer ce temps!';
+$lang['HOBBIES_H2_DESC'] = 'J\'ai commencé à courir il y a plus d\'un an. Travaillant depuis mon domicile, j\'ai eu besoin d\'une raison pour sortir chaque jour. J\'ai rapidement décidé de préparer un semi-marathon que j\'ai completé en 2 heures en octobre dernier. Je cours toujours et continu d\'essayer d\'améliorer ce temps!';
 $lang['HOBBIES_H3_TITLE'] = 'Films / Séries';
 $lang['HOBBIES_H3_DESC'] = 'Je passe un certain temps à regarder des films et séries. Je ne parviens pas à être à jour sur toutes les séries que je regarde ce qui vous laisse deviner qu\'il y en a beaucoup!';
 

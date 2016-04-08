@@ -104,7 +104,7 @@ $lang['HOBBIES_H3_DESC'] = 'I spend quite some time watching movies and tv-shows
 
 //Footer
 $lang['FOOTER_TITLE'] = 'GET IN TOUCH';
-$lang['FOOTER_DESC'] = 'If you\'re looking for a software or front-end developer for your next project, let\’s talk.';
+$lang['FOOTER_DESC'] = 'If you\'re looking for a software or front-end developer for your next project, let\'s talk.';
 $lang['FOOTER_COPY'] = 'Copyright © 2016 ';
 $lang['FOOTER_SOCIAL'] = 'Social media';
 
