@@ -45,13 +45,15 @@
           <div class="header-nav">
             <nav>
               <ul class="primary-nav">
-                <li><a href="#education">Education</a></li>
-                <li><a href="#work-experience">Work Experience</a></li>
-                <li><a href="#technical-expertise">Technical Expertise</a></li>
-                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#education"><?php echo $lang['MENU_EDUCATION']; ?></a></li>
+                <li><a href="#work-experience"><?php echo $lang['MENU_EXPERIENCE']; ?></a></li>
+                <li><a href="#technical-expertise"><?php echo $lang['MENU_EXPERTISE']; ?></a></li>
+                <li><a href="#hobbies"><?php echo $lang['MENU_HOBBIES']; ?></a></li>
               </ul>
               <ul class="member-actions">
-                <li><a href="document/resume.pdf" target="_blank" class="btn-white btn-small">Download CV</a></li>
+                <li><a href="document/<?php echo $lang['CV_URL']; ?>" target="_blank" class="btn-white btn-small"><?php echo $lang['MENU_DOWNLOAD']; ?></a></li>
+                  <li><a href="/en/" class="<?php echo $lang['EN_ACTIVE']; ?>">EN</a></li>
+                  <li><a href="/fr/" class="<?php echo $lang['FR_ACTIVE']; ?>">FR</a></li>
               </ul>
             </nav>
           </div>
@@ -65,10 +67,10 @@
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
           <div class="hero-content text-center">
-            <h1>Paris based Software &amp; Front End Developer</h1>
-            <p class="intro">Welcome to my CV-Web page.</p>
-            <a href="document/resume.pdf" target="_blank" class="btn btn-fill btn-large btn-margin-right">Download CV</a>
-            <a href="mailto:clementdungler@gmail.com" class="btn btn-accent btn-large">Contact</a>
+            <h1><?php echo $lang['HERO_TITLE']; ?></h1>
+            <p class="intro"><?php echo $lang['HERO_SUB']; ?></p>
+            <a href="document/<?php echo $lang['CV_URL']; ?>" target="_blank" class="btn btn-fill btn-large btn-margin-right"><?php echo $lang['HERO_DOWNLOAD']; ?></a>
+            <a href="mailto:clementdungler@gmail.com" class="btn btn-accent btn-large"><?php echo $lang['HERO_CONTACT']; ?></a>
           </div>
         </div>
       </div>
@@ -82,9 +84,9 @@
           <div class="avatar">
             <img src="img/my-face.png" alt="Clement DUNGLER" width="111" height="110" class="img-circle">
           </div>
-          <h1>SOFTWARE &amp; FRONT-END DEVELOPER PARIS</h1>
-          <p>Hey, I'm Clement Dungler! An enthusiastic and self-motivated software and front-end developer hailing from Paris, France. I'm passionate about creating nice user experiences by using innovative tools. Communication and positive attitude are to me, key values for a successful business.</p>
-          <p>Currently working at <a href="http://www.solitonit.com/" class="domain">Soliton IT</a> as a Software Developer, I am putting my knowledge into practice, delivering web sites, desktop and mobile applications.</p>
+          <h1><?php echo $lang['ABOUT_TITLE']; ?></h1>
+          <p><?php echo $lang['ABOUT_P1']; ?></p>
+          <p><?php echo $lang['ABOUT_P2']; ?></p>
         </div>
       </div>
     </div>
@@ -97,8 +99,8 @@
             <span data-icon="&#xe033;" class="icon"></span>
           </div>
           <div class="intro-content">
-            <h5>Software</h5>
-            <p>I am passionate about creating enjoyable softwares with great architecture and design using the power of object-languages.</p>
+            <h5><?php echo $lang['ABOUT_S1_TITLE']; ?></h5>
+            <p><?php echo $lang['ABOUT_S1_CONTENT']; ?></p>
           </div>
         </div>
         <div class="col-md-4 intro-feature">
@@ -106,8 +108,8 @@
             <span data-icon="&#xe030;" class="icon"></span>
           </div>
           <div class="intro-content">
-            <h5>Front-end</h5>
-            <p>I love creating user interfaces with a great user experience using the latest web technologies focusing on HTML5, CSS3, JS.</p>
+            <h5><?php echo $lang['ABOUT_S2_TITLE']; ?></h5>
+            <p><?php echo $lang['ABOUT_S2_CONTENT']; ?></p>
           </div>
         </div>
         <div class="col-md-4 intro-feature">
@@ -115,8 +117,8 @@
             <span data-icon="&#xe000;" class="icon"></span>
           </div>
           <div class="intro-content last">
-            <h5>Responsive design</h5>
-            <p>To ensure the best possible user experience, sites must work well regardless of which device they may be using at a given time.</p>
+            <h5><?php echo $lang['ABOUT_S3_TITLE']; ?></h5>
+            <p><?php echo $lang['ABOUT_S3_CONTENT']; ?></p>
           </div>
         </div>
       </div>
@@ -126,15 +128,15 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-header">Education</h3>
+          <h3 class="section-header"><?php echo $lang['EDUCATION_TITLE']; ?></h3>
                         <div class="education-stack">
                           <div class="education-item">
                               <div class="circle"></div>
                               <div class="row">
                                 <div class="col-md-8 education-item-content education-wp1-left">
-                                  <h5>Engineering School – ENSISA</h5>
-                                  <div class="dates">2010-2013 @ Mulhouse, France</div>
-                                  <div class="description">Engineering School majoring in computer sciences</div>
+                                  <h5><?php echo $lang['EDUCATION_E1_TITLE']; ?></h5>
+                                  <div class="dates"><?php echo $lang['EDUCATION_E1_DATES']; ?></div>
+                                  <div class="description"><?php echo $lang['EDUCATION_E1_DESC']; ?></div>
                                 </div>
                                 <div class="col-md-4 education-image education-wp1-right">
                                   <img src="img/ensisa.svg"></img>
@@ -145,8 +147,8 @@
                               <div class="circle"></div>
                               <div class="row">
                                   <div class="col-md-8 education-item-content education-wp2-left">
-                                  <h5>Preparatory Courses to enter top universities</h5>
-                                  <div class="dates">2008-2010 @ Mulhouse, France</div>
+                                  <h5><?php echo $lang['EDUCATION_E2_TITLE']; ?></h5>
+                                  <div class="dates"><?php echo $lang['EDUCATION_E2_DATES']; ?></div>
                                 </div>
                                 <div class="col-md-4 education-image education-wp2-right">
                                 </div>
@@ -156,8 +158,8 @@
                               <div class="circle"></div>
                               <div class="row">
                                   <div class="col-md-8 education-item-content education-wp3-left">
-                                    <h5>Graduate in Science with distinction</h5>
-                                    <div class="dates">2008 @ Mulhouse, France</div>
+                                    <h5><?php echo $lang['EDUCATION_E3_TITLE']; ?></h5>
+                                    <div class="dates"><?php echo $lang['EDUCATION_E3_DATES']; ?></div>
                                   </div>
                                   <div class="col-md-4 education-image education-wp3-right">
                                     <span class="fa fa-graduation-cap" class="icon"></span>
@@ -173,32 +175,32 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="section-header">Experience</h3>
+                    <h3 class="section-header"><?php echo $lang['EXPERIENCE_TITLE']; ?></h3>
                         <div class="work-experience-stack">
                           <div class="work-experience-item">
                               <div class="circle"></div>
                               <div class="row">
                                 <div class="col-md-8 work-experience-item-content work-experience-wp1-left">
-                                  <h5>Soliton IT Ltd</h5>
-                                  <div class="dates">Oct 2013 - Now @ Hemel Hempstead (UK) / Home office (France)</div>
-                                  <div class="position">Software developer</div>
+                                  <h5><?php echo $lang['EXPERIENCE_E1_COMPANY']; ?></h5>
+                                  <div class="dates"><?php echo $lang['EXPERIENCE_E1_DATES']; ?></div>
+                                  <div class="position"><?php echo $lang['EXPERIENCE_E1_TITLE']; ?></div>
                                   <div class="description">
-                                    <h6>Front-end, back-end development</h6>
+                                    <h6><?php echo $lang['EXPERIENCE_E1_DESC1']; ?></h6>
                                     <ul class="fa-ul">
-                                      <li><i class="fa-li fa fa-check-square"></i>Creation and deployment of the company support website. Front-end is built using material design concepts. Back-end is a Microsoft .NET Web API <a href="http://178.21.237.178:8080" target="blank">link</a>
+                                      <li><i class="fa-li fa fa-check-square"></i><?php echo $lang['EXPERIENCE_E1_DESC1_1']; ?>
                                       </li>
-                                      <li><i class="fa-li fa fa-check-square"></i>Refactoring of the company website. Multi-language, responsive design <a href="http://www.solitonit.com" target="blank">link</a>
+                                      <li><i class="fa-li fa fa-check-square"></i><?php echo $lang['EXPERIENCE_E1_DESC1_2']; ?>
                                       </li>
-                                      <li><i class="fa-li fa fa-check-square"></i>Design, creation and deployment as a web application of a mobile application to different hospitals.
+                                      <li><i class="fa-li fa fa-check-square"></i><?php echo $lang['EXPERIENCE_E1_DESC1_3']; ?>
                                       </li>
                                     </ul>
-                                    <h6>Software development</h6>
+                                    <h6><?php echo $lang['EXPERIENCE_E1_DESC2']; ?></h6>
                                     <ul class="fa-ul">
-                                      <li><i class="fa-li fa fa-check-square"></i>Design, Implementation, test of new modules for the radiology department information system
+                                      <li><i class="fa-li fa fa-check-square"></i><?php echo $lang['EXPERIENCE_E1_DESC2_1']; ?>
                                       </li>
-                                      <li><i class="fa-li fa fa-check-square"></i>Resolution of bugs and general improvement
+                                      <li><i class="fa-li fa fa-check-square"></i><?php echo $lang['EXPERIENCE_E1_DESC2_2']; ?>
                                       </li>
-                                      <li><i class="fa-li fa fa-check-square"></i>Refactoring of the user interface
+                                      <li><i class="fa-li fa fa-check-square"></i><?php echo $lang['EXPERIENCE_E1_DESC2_3']; ?>
                                       </li>
                                     </ul>
                                   </div>
@@ -212,16 +214,16 @@
                               <div class="circle"></div>
                               <div class="row">
                                 <div class="col-md-8 work-experience-item-content work-experience-wp2-left">
-                                  <h5>Airbus</h5>
-                                  <div class="dates">Mar 2013 - Aug 2013 @ Toulouse, France</div>
-                                  <div class="position">Intern Software developer</div>
+                                  <h5><?php echo $lang['EXPERIENCE_E2_COMPANY']; ?></h5>
+                                  <div class="dates"><?php echo $lang['EXPERIENCE_E2_DATES']; ?></div>
+                                  <div class="position"><?php echo $lang['EXPERIENCE_E2_TITLE']; ?></div>
                                   <div class="description">
                                     <ul class="fa-ul">
-                                      <li><i class="fa-li fa fa-check-square"></i>Improvement of a solution, Study of the existing system and his context
+                                      <li><i class="fa-li fa fa-check-square"></i><?php echo $lang['EXPERIENCE_E2_DESC1']; ?>
                                       </li>
-                                      <li><i class="fa-li fa fa-check-square"></i>Feasibility and technical propositions, Development in ASP .NET and SQL Server, test and validation
+                                      <li><i class="fa-li fa fa-check-square"></i><?php echo $lang['EXPERIENCE_E2_DESC2']; ?>
                                       </li>
-                                      <li><i class="fa-li fa fa-check-square"></i>Project management and validation by the users
+                                      <li><i class="fa-li fa fa-check-square"></i><?php echo $lang['EXPERIENCE_E2_DESC3']; ?>
                                       </li>
                                     </ul>
                                   </div>
@@ -235,13 +237,13 @@
                               <div class="circle"></div>
                               <div class="row">
                                 <div class="col-md-8 work-experience-item-content work-experience-wp3-left">
-                                  <h5>AMES (Aircraft Maintenance Engineering Services)</h5>
-                                  <div class="dates">Holidays 2011 - 2012 @ Saint-Louis, France</div>
-                                  <div class="position">Engineer assistant</div>
+                                  <h5><?php echo $lang['EXPERIENCE_E3_COMPANY']; ?></h5>
+                                  <div class="dates"><?php echo $lang['EXPERIENCE_E3_DATES']; ?></div>
+                                  <div class="position"><?php echo $lang['EXPERIENCE_E3_TITLE']; ?></div>
                                   <ul class="fa-ul">
-                                    <li><i class="fa-li fa fa-check-square"></i>Development of Java application, modification of Joomla web site
+                                    <li><i class="fa-li fa fa-check-square"></i><?php echo $lang['EXPERIENCE_E3_DESC1']; ?>
                                     </li>
-                                    <li><i class="fa-li fa fa-check-square"></i>Automatic generation and export of aircraft maintenance documentation and publication on a web site
+                                    <li><i class="fa-li fa fa-check-square"></i><?php echo $lang['EXPERIENCE_E3_DESC2']; ?>
                                     </li>
                                   </ul>
                                 </div>
@@ -257,16 +259,16 @@
     </section>
     <section class="technical-expertise" id="technical-expertise">
       <div class="container">
-          <h3 class="section-header">Expertise</h3>
+          <h3 class="section-header"><?php echo $lang['EXPERTISE_TITLE']; ?></h3>
         <div class="row">
           <div class="col-md-4">
-            <h2>Languages</h2>
+            <h2><?php echo $lang['EXPERTISE_LANGUAGES']; ?></h2>
             <div >
               <ul class="technical-list">
                 <li class="technical-item">
                   <div class="technical-header">
-                    <h5 class="technical-title">C#</h5>
-                    <span class="technical-time">3 Years</span>
+                    <h5 class="technical-title"><?php echo $lang['EXPERTISE_CS']; ?></h5>
+                    <span class="technical-time">3 <?php echo $lang['EXPERTISE_YEARS']; ?></span>
                   </div>
                   <div class="progress-bar">
                     <div class="technical-expertise-wp1 progress-content animated" data-percent="100">
@@ -276,8 +278,8 @@
                 </li>
                 <li class="technical-item">
                   <div class="technical-header">
-                    <h5 class="technical-title">WPF</h5>
-                    <span class="technical-time">2.5 Years</span>
+                    <h5 class="technical-title"><?php echo $lang['EXPERTISE_WPF']; ?></h5>
+                    <span class="technical-time">2.5 <?php echo $lang['EXPERTISE_YEARS']; ?></span>
                   </div>
                   <div class="progress-bar">
                     <div class="technical-expertise-wp1 progress-content animated" data-percent="82">
@@ -286,8 +288,8 @@
                 </li>
                 <li class="technical-item">
                   <div class="technical-header">
-                    <h5 class="technical-title">ASP.NET 4+, MVC</h5>
-                    <span class="technical-time">2.5 Years</span>
+                    <h5 class="technical-title"><?php echo $lang['EXPERTISE_ASPNET']; ?></h5>
+                    <span class="technical-time">2.5 <?php echo $lang['EXPERTISE_YEARS']; ?></span>
                   </div>
                   <div class="progress-bar">
                     <div class="technical-expertise-wp1 progress-content animated" data-percent="82">
@@ -297,8 +299,8 @@
                 </li>
                 <li class="technical-item">
                   <div class="technical-header">
-                    <h5 class="technical-title">Web API</h5>
-                    <span class="technical-time">2 Years</span>
+                    <h5 class="technical-title"><?php echo $lang['EXPERTISE_WEBAPI']; ?></h5>
+                    <span class="technical-time">2 <?php echo $lang['EXPERTISE_YEARS']; ?></span>
                   </div>
                   <div class="progress-bar">
                     <div class="technical-expertise-wp1 progress-content animated" data-percent="66">
@@ -307,8 +309,8 @@
                 </li>
                 <li class="technical-item">
                   <div class="technical-header">
-                    <h5 class="technical-title">HTML 5, CSS 3, JS</h5>
-                    <span class="technical-time">1.5 Years</span>
+                    <h5 class="technical-title"><?php echo $lang['EXPERTISE_HTML']; ?></h5>
+                    <span class="technical-time">1.5 <?php echo $lang['EXPERTISE_YEARS']; ?></span>
                   </div>
                   <div class="progress-bar">
                     <div class="technical-expertise-wp1 progress-content animated" data-percent="50">
@@ -318,8 +320,8 @@
                 </li>
                 <li class="technical-item">
                   <div class="technical-header">
-                    <h5 class="technical-title">SQL</h5>
-                    <span class="technical-time">3 Years</span>
+                    <h5 class="technical-title"><?php echo $lang['EXPERTISE_SQL']; ?></h5>
+                    <span class="technical-time">3 <?php echo $lang['EXPERTISE_YEARS']; ?></span>
                   </div>
                   <div class="progress-bar">
                     <div class="technical-expertise-wp1 progress-content animated" data-percent="100">
@@ -329,8 +331,8 @@
                 </li>
                 <li class="technical-item">
                   <div class="technical-header">
-                    <h5 class="technical-title">Java</h5>
-                    <span class="technical-time">0.5 Years</span>
+                    <h5 class="technical-title"><?php echo $lang['EXPERTISE_JAVA']; ?></h5>
+                    <span class="technical-time">0.5 <?php echo $lang['EXPERTISE_YEARS']; ?></span>
                   </div>
                   <div class="progress-bar">
                     <div class="technical-expertise-wp1 progress-content animated" data-percent="17">
@@ -342,13 +344,13 @@
             </div>
           </div>
           <div class="col-md-4">
-            <h2>Software</h2>
+            <h2><?php echo $lang['EXPERTISE_SOFTWARE']; ?></h2>
             <div >
               <ul class="technical-list">
                 <li class="technical-item">
                   <div class="technical-header">
-                    <h5 class="technical-title">Visual Studio</h5>
-                    <span class="technical-time">3 Years</span>
+                    <h5 class="technical-title"><?php echo $lang['EXPERTISE_VS']; ?></h5>
+                    <span class="technical-time">3 <?php echo $lang['EXPERTISE_YEARS']; ?></span>
                   </div>
                   <div class="progress-bar">
                     <div class="technical-expertise-wp2 progress-content animated" data-percent="100">
@@ -357,8 +359,8 @@
                 </li>
                 <li class="technical-item">
                   <div class="technical-header">
-                    <h5 class="technical-title">SQL Server</h5>
-                    <span class="technical-time">3 Years</span>
+                    <h5 class="technical-title"><?php echo $lang['EXPERTISE_SQLSERVER']; ?></h5>
+                    <span class="technical-time">3 <?php echo $lang['EXPERTISE_YEARS']; ?></span>
                   </div>
                   <div class="progress-bar">
                     <div class="technical-expertise-wp2 progress-content animated" data-percent="100">
@@ -368,8 +370,8 @@
                 </li>
                 <li class="technical-item">
                   <div class="technical-header">
-                    <h5 class="technical-title">Sourcetree (git)</h5>
-                    <span class="technical-time">2 Years</span>
+                    <h5 class="technical-title"><?php echo $lang['EXPERTISE_GIT']; ?></h5>
+                    <span class="technical-time">2 <?php echo $lang['EXPERTISE_YEARS']; ?></span>
                   </div>
                   <div class="progress-bar">
                     <div class="technical-expertise-wp2 progress-content animated" data-percent="66">
@@ -379,8 +381,8 @@
                 </li>
                 <li class="technical-item">
                   <div class="technical-header">
-                    <h5 class="technical-title">Xcode</h5>
-                    <span class="technical-time">2.5 Years</span>
+                    <h5 class="technical-title"><?php echo $lang['EXPERTISE_XCODE']; ?></h5>
+                    <span class="technical-time">2.5 <?php echo $lang['EXPERTISE_YEARS']; ?></span>
                   </div>
                   <div class="progress-bar">
                     <div class="technical-expertise-wp2 progress-content animated" data-percent="82">
@@ -392,13 +394,13 @@
             </div>
           </div>
           <div class="col-md-4">
-            <h2>Skills</h1>
+            <h2><?php echo $lang['EXPERTISE_SKILLS']; ?></h1>
             <div >
               <ul class="technical-list">
                 <li class="technical-item">
                   <div class="technical-header">
-                    <h5 class="technical-title">Team Work</h5>
-                    <span class="technical-time">Can't work alone</span>
+                    <h5 class="technical-title"><?php echo $lang['EXPERTISE_TEAM']; ?></h5>
+                    <span class="technical-time"><?php echo $lang['EXPERTISE_TEAM_DESC']; ?></span>
                   </div>
                   <div class="progress-bar">
                     <div class="technical-expertise-wp3 progress-content animated" data-percent="100">
@@ -408,7 +410,7 @@
                 </li>
                 <li class="technical-item">
                   <div class="technical-header">
-                    <h5 class="technical-title">Communication</h5>
+                    <h5 class="technical-title"><?php echo $lang['EXPERTISE_COMM']; ?></h5>
                     <span class="technical-time"></span>
                   </div>
                   <div class="progress-bar">
@@ -419,7 +421,7 @@
                 </li>
                 <li class="technical-item">
                   <div class="technical-header">
-                    <h5 class="technical-title">Project organisation</h5>
+                    <h5 class="technical-title"><?php echo $lang['EXPERTISE_PROJECT']; ?></h5>
                     <span class="technical-time"></span>
                   </div>
                   <div class="progress-bar">
@@ -430,8 +432,8 @@
                 </li>
                 <li class="technical-item">
                   <div class="technical-header">
-                    <h5 class="technical-title">Independant</h5>
-                    <span class="technical-time">Completely</span>
+                    <h5 class="technical-title"><?php echo $lang['EXPERTISE_INDEPENDANT']; ?></h5>
+                    <span class="technical-time"><?php echo $lang['EXPERTISE_INDEPENDANT_DESC']; ?></span>
                   </div>
                   <div class="progress-bar">
                     <div class="technical-expertise-wp3 progress-content animated" data-percent="100">
@@ -465,8 +467,8 @@
                         <span class="icon icon-cook-hat"></span>
                       </div>
                       <div class="intro-content">
-                          <h5>Cooking</h5>
-                          <p>As a proper French, eating good food is really important to me. Even in my small kitchen, I don't mind preparing slow-cooked dishes which requires long preparation.</p>
+                          <h5><?php echo $lang['HOBBIES_H1_TITLE']; ?></h5>
+                          <p><?php echo $lang['HOBBIES_H1_DESC']; ?></p>
                       </div>
                   </div>
                   <div class="col-md-4 intro-feature">
@@ -474,8 +476,8 @@
                           <span class="icon icon-run"></span>
                       </div>
                       <div class="intro-content">
-                          <h5>Running</h5>
-                          <p>I started running a year ago. As I was working from home, I needed a reason to go out every day. I quickly decided to prepare a half-marathong which I did in 2 hours last October. I am still practicing and trying to improve that time !</p>
+                          <h5><?php echo $lang['HOBBIES_H2_TITLE']; ?></h5>
+                          <p><?php echo $lang['HOBBIES_H2_DESC']; ?></p>
                       </div>
                   </div>
                   <div class="col-md-4 intro-feature">
@@ -483,8 +485,8 @@
                           <span class="icon icon-screen"></span>
                       </div>
                       <div class="intro-content last">
-                          <h5>Movies / TV shows</h5>
-                          <p>I spend quite some time watching movies and tv-shows. I can't be up to date on all the tv-shows I am following which let's you guess that there's a lot !</p>
+                          <h5><?php echo $lang['HOBBIES_H3_TITLE']; ?></h5>
+                          <p><?php echo $lang['HOBBIES_H3_DESC']; ?></p>
                       </div>
                   </div>
               </div>
@@ -505,22 +507,22 @@
             <div class="row">
                 <div class="col-md-7">
                   <div class="contact">
-                    <h1>GET IN TOUCH</h1>
-                    <p>If you're looking for a software or front-end developer for your next project, let’s talk.</p>
-                    <a href="mailto:clementdungler@gmail.com" class="btn btn-ghost btn-accent btn-small">Contact</a>
+                    <h1><?php echo $lang['FOOTER_TITLE']; ?></h1>
+                    <p><?php echo $lang['FOOTER_DESC']; ?></p>
+                    <a href="mailto:clementdungler@gmail.com" class="btn btn-ghost btn-accent btn-small"><?php echo $lang['HERO_CONTACT']; ?></a>
                   </div>
                     <div class="footer-links">
                         <ul class="footer-group">
-                            <li><a href="#education">Education</a></li>
-                            <li><a href="#work-experience">Work Experience</a></li>
-                            <li><a href="#technical-expertise">Technical Expertise</a></li>
-                            <li><a href="#hobbies">Hobbies</a></li>
+                            <li><a href="#education"><?php echo $lang['MENU_EDUCATION']; ?></a></li>
+                            <li><a href="#work-experience"><?php echo $lang['MENU_EXPERIENCE']; ?></a></li>
+                            <li><a href="#technical-expertise"><?php echo $lang['MENU_EXPERTISE']; ?></a></li>
+                            <li><a href="#hobbies"><?php echo $lang['MENU_HOBBIES']; ?></a></li>
                         </ul>
-                        <p>Copyright © 2016 <a href="#">Clement DUNGLER</a><br>
+                        <p><?php echo $lang['FOOTER_COPY']; ?> <a href="#">Clement DUNGLER</a><br>
                     </div>
                 </div>
                 <div class="social-share">
-                    <p>Social media</p>
+                    <p><?php echo $lang['FOOTER_SOCIAL']; ?></p>
                     <a href="https://fr.linkedin.com/in/clement-dungler-13195754" class="linkedin-share"><i class="fa fa-linkedin"></i></a>
                 </div>
             </div>

@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteBase /
+
+# empty url -> redirect to en/
+RewriteCond %{QUERY_STRING} !lang=(fr|en)
+RewriteRule ^$ fr/ [R=301,L]
+
+# url is ONLY '/en' or '/fr' -> redirect to /en/ or /fr/ (adding slash)
+RewriteRule ^(fr|en)$  $1/ [R=301,L]
+
+# now all urls have en/ fr/ -> parse them
+RewriteRule ^(fr|en)/(.*)$  $2?lang=$1&%{query_STRING} [L]

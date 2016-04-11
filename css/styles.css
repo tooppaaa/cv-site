@@ -446,7 +446,7 @@ header {
   header .logo {
     display: inline-block; }
   header ul.primary-nav {
-    margin: 0 0 0 75px;
+    margin: 0 0 0 40px;
     padding: 0; }
     header ul.primary-nav li {
       display: inline; }
@@ -463,6 +463,8 @@ header {
       color: #fff; }
       header ul.member-actions li a:hover {
         color: #03A9F4; }
+    header ul.member-actions li .active {
+      color: #03A9F4; }
   header .header-nav {
     display: inline-block; }
   header .member-actions {
@@ -470,6 +472,8 @@ header {
     right: 0;
     top: 41px;
     transition: all 300ms ease-in-out; }
+    header .member-actions .btn-white {
+      margin-right: 10px; }
 
 .down-arrow {
   color: #fff;
