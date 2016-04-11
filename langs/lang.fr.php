@@ -25,10 +25,10 @@ $lang['HERO_CONTACT'] = 'Contact';
 
 //About me
 $lang['ABOUT_TITLE'] = 'DÉVELOPPEUR LOGICIEL &amp; FRONT-END PARIS';
-$lang['ABOUT_P1'] = 'Hey, Je suis Clement Dungler! Un développeur logiciel et front-end enthousiaste et motivé en provenance de Paris. Je suis passionné par la création d\'expériences utilisateurs agréables en utilisant des outils novateurs. La communication et une attitude positive sont pour moi, des valeurs clés dans la réussite d\'un projet.';
+$lang['ABOUT_P1'] = 'Je m\'appelle Clement Dungler, développeur logiciel et front-end enthousiaste et motivé. Je suis passionné par la création d\'expériences utilisateurs en utilisant des outils novateurs. La communication et une attitude positive sont pour moi, des valeurs clés dans la réussite d\'un projet.';
 $lang['ABOUT_P2'] = 'Travaillant actuellement chez <a href="http://www.solitonit.com/" class="domain">Soliton IT</a> en tant que développeur logiciel, je mets en pratique mes connaissances, en créant des sites internet, logiciel et applications mobile';
 $lang['ABOUT_S1_TITLE'] = 'Logiciel';
-$lang['ABOUT_S1_CONTENT'] = 'Je suis passioné par la création de logiciel agréable à utiliser avec une architecture et un design réflechi en utilisant la puissance des langages orientés objects.';
+$lang['ABOUT_S1_CONTENT'] = 'Je suis passionné par la création de logiciel agréable à utiliser avec une architecture et un design réfléchi en utilisant la puissance des langages orientés objects.';
 $lang['ABOUT_S2_TITLE'] = 'Front-end';
 $lang['ABOUT_S2_CONTENT'] = 'J\'adore créer des interfaces utilisateur offrant une expérience agréable par l\'utilisation des dernières technologies en se concentrant sur HTML5, CSS3, JS.';
 $lang['ABOUT_S3_TITLE'] = 'Design adapté';

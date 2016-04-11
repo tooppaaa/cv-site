@@ -26,7 +26,7 @@ $lang['HERO_CONTACT'] = 'Contact';
 
 //About me
 $lang['ABOUT_TITLE'] = 'SOFTWARE &amp; FRONT-END DEVELOPER PARIS';
-$lang['ABOUT_P1'] = 'Hey, I\'m Clement Dungler! An enthusiastic and self-motivated software and front-end developer hailing from Paris, France. I\'m passionate about creating nice user experiences by using innovative tools. Communication and positive attitude are to me, key values for a successful business.';
+$lang['ABOUT_P1'] = 'My name is Clement Dungler, an enthusiastic and self-motivated software and front-end developer hailing from Paris, France. I\'m passionate about creating nice user experiences by using innovative tools. Communication and positive attitude are to me, key values for a successful business.';
 $lang['ABOUT_P2'] = 'Currently working at <a href="http://www.solitonit.com/" class="domain">Soliton IT</a> as a Software Developer, I am putting my knowledge into practice, delivering web sites, desktop and mobile applications.';
 $lang['ABOUT_S1_TITLE'] = 'Software';
 $lang['ABOUT_S1_CONTENT'] = 'I am passionate about creating enjoyable softwares with great architecture and design using the power of object-languages.';
