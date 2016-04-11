@@ -17,6 +17,8 @@ $lang['MENU_EXPERTISE'] = 'Expertise technique';
 $lang['MENU_HOBBIES'] = 'Loisirs';
 $lang['MENU_DOWNLOAD'] = 'Télécharger CV';
 
+$lang['CV_URL'] = 'DUNGLER_CLEMENT_CV.pdf';
+
 //Hero
 $lang['HERO_TITLE'] = 'Développeur Logiciel &amp; Front End basé à Paris';
 $lang['HERO_SUB'] = 'Bienvenue sur mon CV-site';
@@ -25,7 +27,7 @@ $lang['HERO_CONTACT'] = 'Contact';
 
 //About me
 $lang['ABOUT_TITLE'] = 'DÉVELOPPEUR LOGICIEL &amp; FRONT-END PARIS';
-$lang['ABOUT_P1'] = 'Je m\'appelle Clement Dungler, développeur logiciel et front-end enthousiaste et motivé. Je suis passionné par la création d\'expériences utilisateurs en utilisant des outils novateurs. La communication et une attitude positive sont pour moi, des valeurs clés dans la réussite d\'un projet.';
+$lang['ABOUT_P1'] = 'Je suis un développeur logiciel et front-end enthousiaste et motivé. Je suis passionné par l\'expérience utilisateur et la création de sites web en utilisant des outils novateurs. J\'accorde une attention particulière à la communication et à une attitude positive, deux valeurs clés dans la réussite d\'un projet.';
 $lang['ABOUT_P2'] = 'Travaillant actuellement chez <a href="http://www.solitonit.com/" class="domain">Soliton IT</a> en tant que développeur logiciel, je mets en pratique mes connaissances, en créant des sites internet, logiciel et applications mobile';
 $lang['ABOUT_S1_TITLE'] = 'Logiciel';
 $lang['ABOUT_S1_CONTENT'] = 'Je suis passionné par la création de logiciel agréable à utiliser avec une architecture et un design réfléchi en utilisant la puissance des langages orientés objects.';
