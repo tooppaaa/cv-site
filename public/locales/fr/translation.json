@@ -1,0 +1,191 @@
+{
+  "hero": {
+    "header": "Développeur Full-Stack basé à Nantes",
+    "description": "React.JS ~ Node.JS ~ C# ~ AWS",
+    "download": "Télécharger CV",
+    "contact": "Contact"
+  },
+  "bio": {
+    "title": "Développeur Front-End, Back-End",
+    "p1": "Je m'appelle Clément DUNGLER, développeur logiciel et front-end enthousiaste et motivé. Je suis passionné par l'expérience utilisateur et la création de sites web en utilisant des outils novateurs. J'accorde une attention particulière à la communication et à une attitude positive, deux valeurs clés dans la réussite d'un projet.",
+    "p2": "Travaillant actuellement chez Enablon en tant que développeur logiciel, je mets en pratique mes connaissances, en créant des sites internet, logiciel et applications mobile"
+  },
+  "interests": {
+    "software": {
+      "title": "Logiciel",
+      "description": "Je suis passionné par la création de logiciel agréable à utiliser avec une architecture et un design réfléchis en utilisant la puissance des langages orientés objets."
+    },
+    "design": {
+      "title": "Front-end",
+      "description": "J'adore créer des interfaces utilisateur offrant une expérience agréable par l'utilisation des dernières technologies en se concentrant sur React.JS."
+    },
+    "mobile": {
+      "title": "Design adapté",
+      "description": "Pour assurer la meilleure expérience utilisateur possible, les sites doivent fonctionner indépendamment de la plateforme utilisée à un moment donné."
+    }
+  },
+  "education": {
+    "title": "Éducation",
+    "ensisa": {
+      "title": "École d'ingénieur – ENSISA",
+      "subtitle": "2010-2013 @ Mulhouse, France",
+      "subtitle2": "École d'ingénieur spécialisée en informatique et réseaux"
+    },
+    "prepa": {
+      "title": "Classe préparatoire aux grandes écoles",
+      "subtitle": "2008-2010 @ Mulhouse, France"
+    },
+    "bac": {
+      "title": "Baccalauréat avec mention",
+      "subtitle": "2008 @ Mulhouse, France"
+    }
+  },
+  "experience": {
+    "title": "Expérience",
+    "enablon": {
+      "title": "Enablon",
+      "subtitle": "Juil 2016 - Maintenant @ Courbevoie / Bureau à domicile (Nantes)",
+      "subtitle2": "Développeur logiciel",
+      "section1": {
+        "section": "?",
+        "bullet1": "?",
+        "bullet2": "?",
+        "bullet3": "?"
+      },
+      "section2": {
+        "section": "?",
+        "bullet1": "?",
+        "bullet2": "?",
+        "bullet3": "?"
+      }
+    },
+    "soliton": {
+      "title": "Soliton IT Ltd",
+      "subtitle": "Oct 2013 - Juil 2016 @ Hemel Hempstead (UK) / Bureau à domicile (Courbevoie)",
+      "subtitle2": "Développeur logiciel",
+      "section1": {
+        "section": "Développement front-end et back-end",
+        "bullet1": "Création et déploiement du site de support de l'entreprise. La partie front-end utilise les concepts de \"material design\". La partie back-end est une Web API Microsoft .NET",
+        "bullet2": "Remaniement du site web de l'entreprise. Multi-langues, design adapté",
+        "bullet3": "Définition, création et déploiement en tant que web application d'une application mobile pour différents hôpitaux"
+      },
+      "section2": {
+        "section": "Développement logiciel",
+        "bullet1": "Définition, implémentation et test de nouveaux modules pour le système d'information du département de radiologie des hôpitaux",
+        "bullet2": "Résolution de bugs et améliorations générales",
+        "bullet3": "Remaniement de l'interface utilisateur"
+      }
+    },
+
+    "airbus": {
+      "title": "Airbus",
+      "subtitle": "Mars 2013 - Août 2013 @ Toulouse, France",
+      "subtitle2": "Stagiaire développeur logiciel",
+      "bullet1": "Amélioration d'une solution, étude de l'existant et de son contexte",
+      "bullet2": "Faisabilité et propositions techniques, développement en ASP .NET et SQL Server, test et validation",
+      "bullet3": "Gestion de projets et validation par les utilisateurs"
+    },
+    "ames": {
+      "title": "AMES (Aircraft Maintenance Engineering Services)",
+      "subtitle": "Vacances 2011 - 2012 @ Saint-Louis, France",
+      "subtitle2": "Assistant ingénieur",
+      "bullet1": "Développement d'applications Java, modification d'un site web sous Joomla",
+      "bullet2": "Génération automatique et export de documents de maintenance d'avions et publication sur un site web"
+    }
+  },
+  "expertise": {
+    "title": "Expertise",
+    "languages": {
+      "title": "Langages",
+      "lang1": {
+        "title": "React.JS",
+        "years": "4 années"
+      },
+      "lang2": {
+        "title": "No",
+        "years": ""
+      },
+      "lang3": {
+        "title": "",
+        "years": ""
+      },
+      "lang4": {
+        "title": "",
+        "years": ""
+      },
+      "lang5": {
+        "title": "Autres",
+        "years": "SQL, Java, WPF"
+      }
+    },
+    "tools": {
+      "title": "Outils",
+      "tool1": {
+        "title": "Visual Studio / Visual Studio Code",
+        "years": ""
+      },
+      "tool2": {
+        "title": "Git",
+        "years": ""
+      },
+      "tool3": {
+        "title": "Azure DevOps, Gitlab",
+        "years": ""
+      },
+      "tool4": {
+        "title": "AWS",
+        "years": ""
+      },
+      "tool5": {
+        "title": "Azure",
+        "years": ""
+      }
+    },
+
+    "skills": {
+      "title": "Compétences",
+      "skill1": {
+        "title": "Travail d'équipe",
+        "caption": "Jamais seul"
+      },
+      "skill2": {
+        "title": "Communication",
+        "caption": ""
+      },
+      "skill3": {
+        "title": "Gestion de projet",
+        "caption": ""
+      },
+      "skill4": {
+        "title": "Indépendant",
+        "caption": "Complètement"
+      }
+    }
+  },
+  "quote": {
+    "quote": "“Design is not just what it looks like and feels like. Design is how it works.”",
+    "author": "- Steve Jobs"
+  },
+  "hobbies": {
+    "title": "Hobbies",
+    "cooking": {
+      "title": "Cuisine / Restaurant",
+      "description": "En tant que bon Français, bien manger est vraiment important pour moi. Même dans ma petite cuisine, cela ne me dérange pas de cuisiner des plats qui exigent une longue préparation."
+    },
+    "running": {
+      "title": "Course à pied",
+      "description": "J'ai débuté la course à pied en 2015. Les premiers objectifs fûrent des semi-marathons, puis marathon (4h08), puis trails (45km pour le moment)!"
+    },
+    "development": {
+      "title": "Développement",
+      "description": "Après le travail ? Je continue de développer des applications soit en tant que projet personnel, soit pour aider des start-ups à monter leurs MVPs"
+    }
+  },
+  "footer": {
+    "getInTouch": "Prendre contact",
+    "letsTalk": "Si vous êtes à la recherche d'un développeur logiciel ou front-end pour vos futurs projets, contactez-moi.",
+    "contact": "Contact",
+    "socialMedia": "Réseaux sociaux",
+    "copyright": "Copyright © {{ year }} Clement DUNGLER"
+  }
+}
