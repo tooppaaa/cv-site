@@ -11,7 +11,18 @@ const useStyles = makeStyles((theme: Theme) =>
     root: {
       display: "flex",
       [theme.breakpoints.down("sm")]: {
-        flexDirection: "column"
+        flexDirection: "column",
+        alignItems: "center"
+      }
+    },
+    avatar: {
+      marginRight: theme.spacing(4),
+      width: 100,
+      height: 100,
+      [theme.breakpoints.down("sm")]: {
+        marginBottom: theme.spacing(2),
+        width: 80,
+        height: 80
       }
     }
   })
@@ -22,11 +33,13 @@ const Bio: React.FunctionComponent<BioProps> = ({}) => {
   const { t } = useTranslation();
   return (
     <Container className={classes.root}>
-      <Avatar src={me} />
+      <Avatar src={me} className={classes.avatar} />
       <div>
-        <Typography variant="h3">{t("bio.title")}</Typography>
-        <Typography>{t("bio.p1")}</Typography>
-        <Typography>{t("bio.p2")}</Typography>
+        <Typography variant="h3" gutterBottom>
+          {t("bio.title")}
+        </Typography>
+        <Typography gutterBottom>{t("bio.p1")}</Typography>
+        <Typography gutterBottom>{t("bio.p2")}</Typography>
       </div>
     </Container>
   );

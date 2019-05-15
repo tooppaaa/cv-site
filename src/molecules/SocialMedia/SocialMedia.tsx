@@ -11,10 +11,14 @@ interface SocialMediaProps {
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
-      backroundColor: theme.palette.grey[900]
+      backgroundColor: theme.palette.grey[900],
+      color: theme.palette.common.white,
+      padding: theme.spacing(2, 4)
     },
     linkedin: {
-      backgroundColor: "#0077B5"
+      backgroundColor: "#0077B5",
+      color: theme.palette.common.white,
+      marginTop: theme.spacing(2)
     }
   })
 );

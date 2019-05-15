@@ -6,7 +6,7 @@ import CheckedTypography from "../../atoms/CheckedTypography";
 export interface TimelineDescriptionProps {
   title: string;
   subtitle: string;
-  subtitle2: string;
+  subtitle2?: string;
   descriptions?: (string | { section: string; descriptions: string[] })[];
   image?: string;
 }
@@ -26,7 +26,9 @@ const useStyles = makeStyles((theme: Theme) =>
       maxWidth: "25vw",
       [theme.breakpoints.down("sm")]: {
         maxWidth: "auto",
-        maxHeigth: 150
+        maxHeigth: 150,
+        alignSelf: "center",
+        margin: theme.spacing(1)
       }
     },
     image: {
@@ -44,15 +46,27 @@ const TimelineDescription: React.FunctionComponent<
     <div className={classes.root}>
       <div className={classes.content}>
         <Typography variant="h4">{title}</Typography>
-        <Typography>{subtitle}</Typography>
-        <Typography>{subtitle2}</Typography>
+        <Typography
+          variant="subtitle1"
+          color="textSecondary"
+          gutterBottom={!subtitle2}
+        >
+          {subtitle}
+        </Typography>
+        {subtitle2 && (
+          <Typography variant="subtitle2" color="primary" gutterBottom>
+            {subtitle2}
+          </Typography>
+        )}
         {descriptions &&
           descriptions.map((description, index) =>
             typeof description === "string" ? (
               <CheckedTypography key={index}>{description}</CheckedTypography>
             ) : (
               <div key={index}>
-                <Typography>{description.section}</Typography>
+                <Typography variant="h5" color="textSecondary" gutterBottom>
+                  {description.section}
+                </Typography>
                 {description.descriptions.map((description, index) => (
                   <CheckedTypography key={index}>
                     {description}

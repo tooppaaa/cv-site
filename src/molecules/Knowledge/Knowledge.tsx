@@ -11,9 +11,18 @@ export interface KnowledgeProps {
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
-    root: {},
-    icon: {
-      color: theme.palette.primary.main
+    root: {
+      paddingBottom: theme.spacing(2)
+    },
+    texts: {
+      display: "flex",
+      marginBottom: theme.spacing(1)
+    },
+    grow: {
+      flexGrow: 1
+    },
+    caption: {
+      float: "right"
     }
   })
 );
@@ -27,12 +36,21 @@ const Knowledge: React.FunctionComponent<KnowledgeProps> = ({
 
   return (
     <div className={classes.root}>
-      <Typography variant="h5" align="left" display="inline">
-        {title}
-      </Typography>
-      <Typography color="textSecondary" align="left" display="inline">
-        {caption}
-      </Typography>
+      <div className={classes.texts}>
+        <Typography variant="h5" align="left">
+          {title}
+        </Typography>
+        <div className={classes.grow} />
+        <Typography
+          color="textSecondary"
+          align="right"
+          variant="h5"
+          component="span"
+          className={classes.caption}
+        >
+          {caption}
+        </Typography>
+      </div>
       <KnowledgeBar percentage={percentage} />
     </div>
   );

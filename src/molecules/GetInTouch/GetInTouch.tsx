@@ -5,7 +5,14 @@ import { useTranslation } from "react-i18next";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
-    root: {}
+    root: {
+      padding: theme.spacing(2, 0, 4),
+      color: theme.palette.common.white
+    },
+    letsTalk: {
+      color: theme.palette.grey[400],
+      marginBottom: theme.spacing(3)
+    }
   })
 );
 
@@ -15,8 +22,12 @@ const GetInTouch: React.FC = () => {
 
   return (
     <div className={classes.root}>
-      <Typography variant="h5">{t("footer.getInTouch")}</Typography>
-      <Typography>{t("footer.letsTalk")}</Typography>
+      <Typography variant="h5" color="inherit" gutterBottom>
+        {t("footer.getInTouch")}
+      </Typography>
+      <Typography className={classes.letsTalk} variant="body1">
+        {t("footer.letsTalk")}
+      </Typography>
       <Button
         variant="outlined"
         color="primary"

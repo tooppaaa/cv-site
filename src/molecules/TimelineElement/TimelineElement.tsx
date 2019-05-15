@@ -5,7 +5,11 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       position: "relative",
-      paddingLeft: theme.spacing(3)
+      paddingLeft: theme.spacing(3),
+      marginBottom: theme.spacing(4),
+      [theme.breakpoints.down("sm")]: {
+        marginBottom: theme.spacing(2)
+      }
     },
     circle: {
       position: "absolute",

@@ -1,10 +1,11 @@
 import * as React from "react";
-import { Typography, IconButton } from "@material-ui/core";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 import KeyboardArrowDown from "@material-ui/icons/KeyboardArrowDown";
-import { Transition } from "react-transition-group";
+import classnames from "classnames";
 
-export interface FloatingArrowProps {}
+export interface FloatingArrowProps {
+  className?: string;
+}
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -19,7 +20,7 @@ const useStyles = makeStyles((theme: Theme) =>
         transform: "translate(-50%, 0)"
       },
       "65%": {
-        transform: "translate(-50%, 15px)"
+        transform: "translate(-50%, -15px)"
       },
       "100%": {
         transform: "translate(-50%, 0)"
@@ -28,11 +29,13 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-const FloatingArrow: React.FunctionComponent<FloatingArrowProps> = ({}) => {
+const FloatingArrow: React.FunctionComponent<FloatingArrowProps> = ({
+  className
+}) => {
   const classes = useStyles();
   return (
     // <IconButton>
-    <div className={classes.root}>
+    <div className={classnames(classes.root, className)}>
       <KeyboardArrowDown />
     </div>
     // </IconButton>

@@ -9,6 +9,7 @@ import Quote from "../organisms/Quote";
 import Hobbies from "../organisms/Hobbies";
 import Footer from "../organisms/Footer";
 import Bio from "../organisms/Bio";
+import Section from "../atoms/Section";
 
 export interface HomeProps {}
 
@@ -16,13 +17,27 @@ const Home: React.FunctionComponent<HomeProps> = ({}) => (
   <>
     <AppBar />
     <Hero />
-    <Bio />
-    <Interests />
-    <Education />
-    <Experience />
-    <Expertise />
-    <Quote />
-    <Hobbies />
+    <Section id="bio" alternate>
+      <Bio />
+    </Section>
+    <Section id="intersts">
+      <Interests />
+    </Section>
+    <Section id="education" alternate>
+      <Education />
+    </Section>
+    <Section id="experience">
+      <Experience />
+    </Section>
+    <Section id="expertise" alternate>
+      <Expertise />
+    </Section>
+    <Section id="quote" noPadding>
+      <Quote />
+    </Section>
+    <Section id="hobbies" alternate>
+      <Hobbies />
+    </Section>
     <Footer />
   </>
 );

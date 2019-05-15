@@ -5,7 +5,10 @@ import { useTranslation } from "react-i18next";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
-    root: {}
+    root: {
+      padding: theme.spacing(2, 0),
+      color: theme.palette.grey[400]
+    }
   })
 );
 
@@ -14,7 +17,7 @@ const Copyright: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <Typography className={classes.root}>
+    <Typography className={classes.root} variant="body2">
       {t("footer.copyright", { year: new Date().getFullYear() })}
     </Typography>
   );

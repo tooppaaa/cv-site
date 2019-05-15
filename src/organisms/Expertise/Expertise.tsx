@@ -12,9 +12,11 @@ const Expertise: React.FunctionComponent<ExpertiseProps> = ({}) => {
       <Typography variant="h2" align="center">
         {t("expertise.title")}
       </Typography>
-      <Grid container>
+      <Grid container spacing={4}>
         <Grid item xs={12} sm={4}>
-          <Typography variant="h3">{t("expertise.languages.title")}</Typography>
+          <Typography variant="h3" gutterBottom>
+            {t("expertise.languages.title")}
+          </Typography>
           <Knowledge
             title={t("expertise.languages.lang1.title")}
             caption={t("expertise.languages.lang1.years")}
@@ -42,7 +44,9 @@ const Expertise: React.FunctionComponent<ExpertiseProps> = ({}) => {
           />
         </Grid>
         <Grid item xs={12} sm={4}>
-          <Typography variant="h3">{t("expertise.tools.title")}</Typography>
+          <Typography variant="h3" gutterBottom>
+            {t("expertise.tools.title")}
+          </Typography>
           <Knowledge
             title={t("expertise.tools.tool1.title")}
             caption={t("expertise.tools.tool1.years")}
@@ -65,7 +69,9 @@ const Expertise: React.FunctionComponent<ExpertiseProps> = ({}) => {
           />
         </Grid>
         <Grid item xs={12} sm={4}>
-          <Typography variant="h3">{t("expertise.skills.title")}</Typography>
+          <Typography variant="h3" gutterBottom>
+            {t("expertise.skills.title")}
+          </Typography>
           <Knowledge
             title={t("expertise.skills.skill1.title")}
             caption={t("expertise.skills.skill1.caption")}

@@ -18,6 +18,9 @@ const useStyles = makeStyles((theme: Theme) =>
       position: "relative",
       color: theme.palette.common.white,
       padding: theme.spacing(10)
+    },
+    quote: {
+      fontStyle: "italic"
     }
   })
 );
@@ -28,10 +31,18 @@ const Quote: React.FunctionComponent<QuoteProps> = ({}) => {
 
   return (
     <Container className={classes.root}>
-      <Typography variant="h2" color="inherit" align="center">
+      <Typography
+        component="div"
+        variant="h3"
+        color="inherit"
+        align="center"
+        className={classes.quote}
+      >
         {t("quote.quote")}
       </Typography>
-      <Typography align="center">{t("quote.author")}</Typography>
+      <Typography align="center" color="inherit">
+        {t("quote.author")}
+      </Typography>
     </Container>
   );
 };

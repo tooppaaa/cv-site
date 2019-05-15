@@ -12,7 +12,7 @@ const Interests: React.FunctionComponent<InterestsProps> = ({}) => {
   const { t } = useTranslation();
   return (
     <Container>
-      <Grid container>
+      <Grid container spacing={4}>
         <Grid item xs={12} sm={4}>
           <Interest
             icon={<CraftIcon />}

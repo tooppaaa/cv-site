@@ -15,7 +15,10 @@ const useStyles = makeStyles((theme: Theme) =>
       display: "flex"
     },
     icon: {
-      color: theme.palette.primary.main
+      color: theme.palette.primary.main,
+      marginRight: theme.spacing(2),
+      width: "1.5em",
+      height: "1.5em"
     }
   })
 );
@@ -33,7 +36,7 @@ const Interest: React.FunctionComponent<InterestProps> = ({
     <div className={classes.root}>
       {clonedIcon}
       <div>
-        <Typography variant="h5">{title}</Typography>
+        <Typography variant="h4">{title}</Typography>
         <Typography>{description}</Typography>
       </div>
     </div>

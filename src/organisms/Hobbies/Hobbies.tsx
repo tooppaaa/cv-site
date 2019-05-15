@@ -12,7 +12,7 @@ const Hobbies: React.FunctionComponent<HobbiesProps> = ({}) => {
   const { t } = useTranslation();
   return (
     <Container>
-      <Grid container>
+      <Grid container spacing={4}>
         <Grid item xs={12} sm={4}>
           <Interest
             icon={<CookingHatIcon />}

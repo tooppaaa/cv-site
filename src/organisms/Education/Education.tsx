@@ -28,14 +28,12 @@ const Education: React.FunctionComponent<EducationProps> = ({}) => {
           <TimelineDescription
             title={t("education.prepa.title")}
             subtitle={t("education.prepa.subtitle")}
-            subtitle2={t("education.prepa.subtitle2")}
           />
         </TimelineElement>
         <TimelineElement>
           <TimelineDescription
             title={t("education.bac.title")}
             subtitle={t("education.bac.subtitle")}
-            subtitle2={t("education.bac.subtitle2")}
             image={school}
           />
         </TimelineElement>

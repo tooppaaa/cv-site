@@ -10,7 +10,9 @@ const useStyles = makeStyles((theme: Theme) =>
       justifyContent: "flex-end"
     },
     container: {
-      backgroundColor: theme.palette.grey[600]
+      backgroundColor: theme.palette.grey[700],
+      borderRadius: 0,
+      color: theme.palette.common.white
     }
   })
 );
@@ -19,11 +21,9 @@ const ScrollTopBar: React.FC = () => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <div className={classes.container}>
-        <IconButton>
-          <KeyboardArrowUp />
-        </IconButton>
-      </div>
+      <IconButton className={classes.container}>
+        <KeyboardArrowUp />
+      </IconButton>
     </div>
   );
 };

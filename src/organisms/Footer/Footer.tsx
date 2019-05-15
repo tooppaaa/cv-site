@@ -15,7 +15,6 @@ const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       backgroundColor: theme.palette.grey[700],
-      paddingBottom: theme.spacing(4),
 
       width: "100%"
     },
@@ -23,11 +22,14 @@ const useStyles = makeStyles((theme: Theme) =>
       backgroundColor: theme.palette.grey[600]
     },
     content: {
-      position: "relative"
+      position: "relative",
+      paddingBottom: theme.spacing(4)
     },
     leftPart: {
-      maxWidth: "60%",
+      maxWidth: "calc(60% - 84px)",
+      paddingRight: theme.spacing(2),
       [theme.breakpoints.down("sm")]: {
+        paddingRight: theme.spacing(0),
         maxWidth: "100%"
       }
     },
@@ -36,7 +38,7 @@ const useStyles = makeStyles((theme: Theme) =>
       top: 0,
       right: 0,
       width: "40%",
-      height: "100%"
+      height: "calc(100% - 32px)"
     }
   })
 );
