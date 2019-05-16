@@ -2,9 +2,7 @@ import * as React from "react";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 import useScrollTrigger from "@material-ui/core/useScrollTrigger";
 import Logo from "../../atoms/Logo";
-import { useTranslation } from "react-i18next";
-import { links } from "../../helpers/navigation";
-import { Link, Container, IconButton, Hidden, Button } from "@material-ui/core";
+import { Container, IconButton, Hidden } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 import classnames from "classnames";
 import Fade from "../../atoms/Fade";
@@ -67,7 +65,7 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-const AppBar: React.FunctionComponent = ({ children }) => {
+const AppBar: React.FunctionComponent = () => {
   const classes = useStyles();
   const trigger = useScrollTrigger({
     disableHysteresis: true,

@@ -1,5 +1,6 @@
 import * as React from "react";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
+import { ViewportContextProvider } from "../../atoms/ViewportContext/ViewportContext";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -28,9 +29,11 @@ const useStyles = makeStyles((theme: Theme) =>
 const TimelineElement: React.FunctionComponent = ({ children }) => {
   const classes = useStyles();
   return (
-    <div className={classes.root}>
-      <div className={classes.circle} /> {children}
-    </div>
+    <ViewportContextProvider>
+      <div className={classes.root}>
+        <div className={classes.circle} /> {children}
+      </div>
+    </ViewportContextProvider>
   );
 };
 

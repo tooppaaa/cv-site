@@ -17,7 +17,7 @@ const Fade: React.FunctionComponent<FadeProps> = ({
   ...props
 }) => {
   const style = {
-    webkitTransition: theme.transitions.create("opacity"),
+    WebkitTransition: theme.transitions.create("opacity"),
     transition: theme.transitions.create("opacity")
   };
   const styles: any = {

@@ -1,7 +1,7 @@
 import * as React from "react";
-import { Typography, Grid } from "@material-ui/core";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
-import CheckedTypography from "../../atoms/CheckedTypography";
+import { useSpring, animated } from "react-spring";
+import { useViewport } from "../ViewportContext/ViewportContext";
 
 export interface KnowledgeBarProps {
   percentage: number;
@@ -41,10 +41,12 @@ const KnowledgeBar: React.FunctionComponent<KnowledgeBarProps> = ({
   percentage
 }) => {
   const classes = useStyles();
+  const visible = useViewport();
+  const props = useSpring({ width: visible ? `${percentage}%` : "0%" });
   return (
     <div className={classes.root}>
       <div className={classes.bar} />
-      <div className={classes.progress} style={{ width: `${percentage}%` }} />
+      <animated.div className={classes.progress} style={props} />
     </div>
   );
 };

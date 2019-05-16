@@ -1,6 +1,7 @@
 import * as React from "react";
-import { Typography, Grid } from "@material-ui/core";
+import { Typography, Grow } from "@material-ui/core";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
+import { useViewport } from "../../atoms/ViewportContext/ViewportContext";
 import CheckedTypography from "../../atoms/CheckedTypography";
 
 export interface TimelineDescriptionProps {
@@ -42,46 +43,49 @@ const TimelineDescription: React.FunctionComponent<
   TimelineDescriptionProps
 > = ({ title, subtitle, subtitle2, descriptions, image }) => {
   const classes = useStyles();
+  const visible = useViewport();
   return (
-    <div className={classes.root}>
-      <div className={classes.content}>
-        <Typography variant="h4">{title}</Typography>
-        <Typography
-          variant="subtitle1"
-          color="textSecondary"
-          gutterBottom={!subtitle2}
-        >
-          {subtitle}
-        </Typography>
-        {subtitle2 && (
-          <Typography variant="subtitle2" color="primary" gutterBottom>
-            {subtitle2}
+    <Grow in={visible}>
+      <div className={classes.root}>
+        <div className={classes.content}>
+          <Typography variant="h4">{title}</Typography>
+          <Typography
+            variant="subtitle1"
+            color="textSecondary"
+            gutterBottom={!subtitle2}
+          >
+            {subtitle}
           </Typography>
-        )}
-        {descriptions &&
-          descriptions.map((description, index) =>
-            typeof description === "string" ? (
-              <CheckedTypography key={index}>{description}</CheckedTypography>
-            ) : (
-              <div key={index}>
-                <Typography variant="h5" color="textSecondary" gutterBottom>
-                  {description.section}
-                </Typography>
-                {description.descriptions.map((description, index) => (
-                  <CheckedTypography key={index}>
-                    {description}
-                  </CheckedTypography>
-                ))}
-              </div>
-            )
+          {subtitle2 && (
+            <Typography variant="subtitle2" color="primary" gutterBottom>
+              {subtitle2}
+            </Typography>
           )}
-      </div>
-      {image && (
-        <div className={classes.imageContainer}>
-          <img src={image} className={classes.image} />
+          {descriptions &&
+            descriptions.map((description, index) =>
+              typeof description === "string" ? (
+                <CheckedTypography key={index}>{description}</CheckedTypography>
+              ) : (
+                <div key={index}>
+                  <Typography variant="h5" color="textSecondary" gutterBottom>
+                    {description.section}
+                  </Typography>
+                  {description.descriptions.map((description, index) => (
+                    <CheckedTypography key={index}>
+                      {description}
+                    </CheckedTypography>
+                  ))}
+                </div>
+              )
+            )}
         </div>
-      )}
-    </div>
+        {image && (
+          <div className={classes.imageContainer}>
+            <img src={image} className={classes.image} />
+          </div>
+        )}
+      </div>
+    </Grow>
   );
 };
 
