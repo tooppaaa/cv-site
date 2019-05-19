@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import Knowledge from "../../molecules/Knowledge";
 import { ViewportContextProvider } from "../../atoms/ViewportContext/ViewportContext";
 
-const Expertise: React.FC = ({}) => {
+const Expertise: React.FC = () => {
   const { t } = useTranslation();
   return (
     <Container>

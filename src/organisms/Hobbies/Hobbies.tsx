@@ -6,7 +6,7 @@ import CodeIcon from "../../atoms/icons/Code";
 import Interest from "../../molecules/Interest";
 import { useTranslation } from "react-i18next";
 
-const Hobbies: React.FC = ({}) => {
+const Hobbies: React.FC = () => {
   const { t } = useTranslation();
   return (
     <Container>

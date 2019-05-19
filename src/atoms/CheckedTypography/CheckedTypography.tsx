@@ -3,8 +3,6 @@ import { Typography } from "@material-ui/core";
 import CheckedIcon from "../icons/Checked";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 
-export interface CheckedTypographyProps {}
-
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: { display: "flex" },
@@ -17,9 +15,7 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-const CheckedTypography: React.FunctionComponent<CheckedTypographyProps> = ({
-  children
-}) => {
+const CheckedTypography: React.FC = ({ children }) => {
   const classes = useStyles();
   return (
     <div className={classes.root}>

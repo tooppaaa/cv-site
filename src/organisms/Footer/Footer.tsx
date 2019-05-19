@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-const Footer: React.FC = ({}) => {
+const Footer: React.FC = () => {
   const classes = useStyles();
   const { t } = useTranslation();
 

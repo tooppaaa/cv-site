@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-const Quote: React.FC = ({}) => {
+const Quote: React.FC = () => {
   const classes = useStyles();
   const { t } = useTranslation();
 

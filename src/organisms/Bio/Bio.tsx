@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-const Bio: React.FC = ({}) => {
+const Bio: React.FC = () => {
   const classes = useStyles();
   const { t } = useTranslation();
   return (

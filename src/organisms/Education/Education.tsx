@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 import ensisa from "../../assets/ensisa.svg";
 import school from "../../assets/school.svg";
 
-const Education: React.FC = ({}) => {
+const Education: React.FC = () => {
   const { t } = useTranslation();
   return (
     <Container>

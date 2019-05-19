@@ -42,7 +42,7 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-const Hero: React.FC = ({}) => {
+const Hero: React.FC = () => {
   const classes = useStyles();
   const { t } = useTranslation();
 
