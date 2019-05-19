@@ -7,8 +7,6 @@ import hero from "../../assets/hero.jpeg";
 import { Container } from "@material-ui/core";
 import FloatingArrow from "../../atoms/FloatingArrow";
 
-export interface HeroProps {}
-
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
@@ -44,7 +42,7 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-const Hero: React.FunctionComponent<HeroProps> = ({}) => {
+const Hero: React.FC = ({}) => {
   const classes = useStyles();
   const { t } = useTranslation();
 

@@ -4,8 +4,6 @@ import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 import me from "../../assets/me.png";
 import { useTranslation } from "react-i18next";
 
-export interface BioProps {}
-
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
@@ -28,7 +26,7 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-const Bio: React.FunctionComponent<BioProps> = ({}) => {
+const Bio: React.FC = ({}) => {
   const classes = useStyles();
   const { t } = useTranslation();
   return (

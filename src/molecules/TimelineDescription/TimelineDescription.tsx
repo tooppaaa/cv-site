@@ -75,7 +75,7 @@ const TimelineDescription: React.FunctionComponent<
         </div>
         {image && (
           <div className={classes.imageContainer}>
-            <img src={image} className={classes.image} />
+            <img src={image} className={classes.image} alt={title} />
           </div>
         )}
       </div>

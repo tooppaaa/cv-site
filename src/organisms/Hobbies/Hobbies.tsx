@@ -6,9 +6,7 @@ import CodeIcon from "../../atoms/icons/Code";
 import Interest from "../../molecules/Interest";
 import { useTranslation } from "react-i18next";
 
-export interface HobbiesProps {}
-
-const Hobbies: React.FunctionComponent<HobbiesProps> = ({}) => {
+const Hobbies: React.FC = ({}) => {
   const { t } = useTranslation();
   return (
     <Container>

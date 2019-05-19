@@ -6,9 +6,8 @@ import TimelineDescription from "../../molecules/TimelineDescription";
 import { useTranslation } from "react-i18next";
 import ensisa from "../../assets/ensisa.svg";
 import school from "../../assets/school.svg";
-export interface EducationProps {}
 
-const Education: React.FunctionComponent<EducationProps> = ({}) => {
+const Education: React.FC = ({}) => {
   const { t } = useTranslation();
   return (
     <Container>

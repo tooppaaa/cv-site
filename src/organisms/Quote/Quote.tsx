@@ -5,8 +5,6 @@ import Typography from "@material-ui/core/Typography";
 import quote from "../../assets/quote.jpeg";
 import { Container } from "@material-ui/core";
 
-export interface QuoteProps {}
-
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
@@ -27,7 +25,7 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-const Quote: React.FunctionComponent<QuoteProps> = ({}) => {
+const Quote: React.FC = ({}) => {
   const classes = useStyles();
   const { t } = useTranslation();
 

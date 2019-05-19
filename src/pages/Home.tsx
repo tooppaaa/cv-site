@@ -12,9 +12,7 @@ import Bio from "../organisms/Bio";
 import Section from "../atoms/Section";
 import Projects from "../organisms/Projects";
 
-export interface HomeProps {}
-
-const Home: React.FunctionComponent<HomeProps> = ({}) => (
+const Home: React.FC = ({}) => (
   <>
     <AppBar />
     <Hero />

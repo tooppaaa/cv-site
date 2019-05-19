@@ -9,8 +9,6 @@ import { links } from "../../helpers/navigation";
 import SocialMedia from "../../molecules/SocialMedia";
 import Copyright from "../../molecules/Copyright";
 
-export interface FooterProps {}
-
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
@@ -43,7 +41,7 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-const Footer: React.FunctionComponent<FooterProps> = ({}) => {
+const Footer: React.FC = ({}) => {
   const classes = useStyles();
   const { t } = useTranslation();
 

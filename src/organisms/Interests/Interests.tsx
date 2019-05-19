@@ -6,9 +6,7 @@ import TelescopeIcon from "../../atoms/icons/Telescope";
 import Interest from "../../molecules/Interest";
 import { useTranslation } from "react-i18next";
 
-export interface InterestsProps {}
-
-const Interests: React.FunctionComponent<InterestsProps> = ({}) => {
+const Interests: React.FC = ({}) => {
   const { t } = useTranslation();
   return (
     <Container>

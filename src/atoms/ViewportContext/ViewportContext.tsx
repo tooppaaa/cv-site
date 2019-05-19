@@ -11,15 +11,8 @@ export const ViewportContextProvider: React.FunctionComponent = ({
   const handleWaypointEnter = React.useCallback(() => setVisible(true), [
     setVisible
   ]);
-  const handleWaypointLeave = React.useCallback(() => setVisible(false), [
-    setVisible
-  ]);
   return (
-    <Waypoint
-      onEnter={handleWaypointEnter}
-      // onLeave={handleWaypointLeave}
-      bottomOffset={200}
-    >
+    <Waypoint onEnter={handleWaypointEnter} bottomOffset={200}>
       <div>
         <ViewportContext.Provider value={visible}>
           {children}
