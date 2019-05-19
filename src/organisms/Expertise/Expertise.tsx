@@ -100,7 +100,7 @@ const Expertise: React.FunctionComponent<ExpertiseProps> = ({}) => {
             <Knowledge
               title={t("expertise.skills.skill4.title")}
               caption={t("expertise.skills.skill4.caption")}
-              percentage={70}
+              percentage={100}
             />
           </ViewportContextProvider>
         </Grid>

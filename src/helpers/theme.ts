@@ -6,8 +6,6 @@ import { responsiveFontSizes } from "@material-ui/core/styles";
 import { grey } from "./colors";
 import typography from "./typography";
 
-const defaultTheme = createMuiTheme();
-
 const theme: ThemeOptions = {
   shape: {
     borderRadius: 32

@@ -104,7 +104,7 @@ const AppBar: React.FunctionComponent = () => {
           </Hidden>
           <Fade in={open} opacity={0.9}>
             <div className={classes.smNavigation}>
-              <NavLinks open={open} />
+              <NavLinks open={open} onClick={handleClick} />
             </div>
           </Fade>
         </div>

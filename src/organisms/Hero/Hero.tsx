@@ -63,6 +63,8 @@ const Hero: React.FunctionComponent<HeroProps> = ({}) => {
             color="primary"
             className={classes.button}
             size="large"
+            target="_blank"
+            href="/DUNGLER_CLEMENT_CV.pdf"
           >
             {t("hero.download")}
           </Button>
@@ -71,6 +73,7 @@ const Hero: React.FunctionComponent<HeroProps> = ({}) => {
             color="primary"
             className={classes.button}
             size="large"
+            href="mailto:clementdungle@gmail.com"
           >
             {t("hero.contact")}
           </Button>

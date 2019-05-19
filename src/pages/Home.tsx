@@ -24,10 +24,7 @@ const Home: React.FunctionComponent<HomeProps> = ({}) => (
     <Section id="interests">
       <Interests />
     </Section>
-    <Section id="education" alternate>
-      <Education />
-    </Section>
-    <Section id="experience">
+    <Section id="experience" alternate>
       <Experience />
     </Section>
     <Section id="projects">
@@ -35,6 +32,9 @@ const Home: React.FunctionComponent<HomeProps> = ({}) => (
     </Section>
     <Section id="expertise" alternate>
       <Expertise />
+    </Section>
+    <Section id="education" alternate>
+      <Education />
     </Section>
     <Section id="quote" noPadding>
       <Quote />

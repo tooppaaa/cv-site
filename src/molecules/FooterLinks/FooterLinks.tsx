@@ -1,8 +1,7 @@
 import * as React from "react";
-import { Typography, Button, Link } from "@material-ui/core";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
-import classnames from "classnames";
 import { useTranslation } from "react-i18next";
+import SmoothNavLink from "../../atoms/SmoothNavLink";
 
 interface FooterLinksProps {
   links: {
@@ -22,13 +21,6 @@ const useStyles = makeStyles((theme: Theme) =>
       }
     },
     link: {
-      transition: theme.transitions.create("color"),
-      textTransform: "uppercase",
-      fontWeight: 300,
-      "&:hover": {
-        color: theme.palette.primary.main
-      },
-      color: theme.palette.common.white,
       padding: theme.spacing(1),
       paddingRight: theme.spacing(2),
       [theme.breakpoints.down("sm")]: {
@@ -41,19 +33,12 @@ const useStyles = makeStyles((theme: Theme) =>
 
 const FooterLinks: React.FC<FooterLinksProps> = ({ links }) => {
   const classes = useStyles();
-  const { t } = useTranslation();
-
   return (
     <div className={classes.root}>
       {links.map((link, index) => (
-        <Link
-          key={index}
-          className={classes.link}
-          href={link.to}
-          underline="none"
-        >
+        <SmoothNavLink key={index} className={classes.link} to={link.to}>
           {link.label}
-        </Link>
+        </SmoothNavLink>
       ))}
     </div>
   );

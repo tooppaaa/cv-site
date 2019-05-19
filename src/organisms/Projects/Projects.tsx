@@ -48,8 +48,7 @@ const Projects: React.FC = () => {
               t("project.lifeevent.bullet1"),
               t("project.lifeevent.bullet2"),
               t("project.lifeevent.bullet3"),
-              t("project.lifeevent.bullet4"),
-              t("project.lifeevent.bullet5")
+              t("project.lifeevent.bullet4")
             ]}
             stack={t("project.lifeevent.stack")}
           >

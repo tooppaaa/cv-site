@@ -1,19 +1,19 @@
 {
   "hero": {
     "header": "Développeur Full-Stack basé à Nantes",
-    "description": "React.JS ~ Node.JS ~ C# ~ AWS",
+    "description": "React.JS ~ Node.JS ~ C# ~ UI ~ UX",
     "download": "Télécharger CV",
     "contact": "Contact"
   },
   "bio": {
     "title": "Développeur Front-End, Back-End",
-    "p1": "Je m'appelle Clément DUNGLER, développeur logiciel et front-end enthousiaste et motivé. Je suis passionné par l'expérience utilisateur et la création de sites web en utilisant des outils novateurs. J'accorde une attention particulière à la communication et à une attitude positive, deux valeurs clés dans la réussite d'un projet.",
-    "p2": "Travaillant actuellement chez Enablon en tant que développeur logiciel, je mets en pratique mes connaissances, en créant des sites internet, logiciel et applications mobile"
+    "p1": "Je suis un développeur web, front-end, back-end enthousiaste et motivé. Je suis passionné par la réalisation d'expériences utilisateurs et la création d’applications web en utilisant des outils novateurs. Mon expertise technique en constante progression grâce à une formation constante me permet d’expérimenter beaucoup de technologies au travers de projets variés. J'accorde une attention particulière à la communication et à une attitude positive, deux valeurs clés dans la réussite d'un projet.",
+    "p2": "Travaillant actuellement chez Enablon en tant que développeur logiciel, je mets en pratique mes connaissances, en améliorant et integrant de nouvelles fonctionalités dans un contexte agile."
   },
   "interests": {
     "software": {
       "title": "Logiciel",
-      "description": "Je suis passionné par la création de logiciel agréable à utiliser avec une architecture et un design réfléchis. L'expérience developpeur est également clé dans la réussite d'un projet."
+      "description": "Je suis passionné par la création de logiciels agréables à utiliser avec une architecture et un design réfléchis. L'expérience developpeur est également clé dans la réussite d'un projet."
     },
     "frontend": {
       "title": "Front-end",
@@ -58,7 +58,7 @@
       "title": "Soliton IT Ltd",
       "subtitle": "Oct 2013 - Juil 2016 @ Hemel Hempstead (UK) / Bureau à domicile (Courbevoie)",
       "subtitle2": "Développeur logiciel",
-      "bullet1": "Création, déploiement, intégration continue d’un site de support client. Application web (Angular 1) suivant les principes de \"Material Design\". Web API Microsoft .NET.",
+      "bullet1": "Création, déploiement, intégration continue d’un site de support client. Application web (Angular 1) suivant les principes de \"Material Design\". API Microsoft .NET.",
       "bullet2": "Remaniement du site web de l'entreprise. Multi-langues, design adapté",
       "bullet3": "Définition, création et déploiement en tant que web application d'une application mobile pour différents hôpitaux",
       "bullet4": "Définition, implémentation et test de nouveaux modules pour le système d'information du département de radiologie des hôpitaux",
