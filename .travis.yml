@@ -3,7 +3,7 @@ sudo: required
 dist: trusty
 language: node_js
 node_js:
-  - "7"
+  - "lts/*"
 
 before_install:
   # set up awscli packages
