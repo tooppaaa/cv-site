@@ -75,12 +75,12 @@ const AppBar: React.FunctionComponent = () => {
   const handleClick = React.useCallback(() => setOpen(!open), [open, setOpen]);
 
   return (
-    <>
-      <Container
-        className={classnames(classes.root, {
-          [classes.scrolled]: trigger
-        })}
-      >
+    <div
+      className={classnames(classes.root, {
+        [classes.scrolled]: trigger
+      })}
+    >
+      <Container>
         <div
           className={classnames(classes.content, {
             [classes.scrolled]: trigger
@@ -109,7 +109,7 @@ const AppBar: React.FunctionComponent = () => {
           </Fade>
         </div>
       </Container>
-    </>
+    </div>
   );
 };
 

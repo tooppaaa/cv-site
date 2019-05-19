@@ -37,12 +37,12 @@ const Expertise: React.FunctionComponent<ExpertiseProps> = ({}) => {
             <Knowledge
               title={t("expertise.languages.lang4.title")}
               caption={t("expertise.languages.lang4.years")}
-              percentage={70}
+              percentage={60}
             />
             <Knowledge
               title={t("expertise.languages.lang5.title")}
               caption={t("expertise.languages.lang5.years")}
-              percentage={90}
+              percentage={50}
             />
           </ViewportContextProvider>
         </Grid>
@@ -71,6 +71,11 @@ const Expertise: React.FunctionComponent<ExpertiseProps> = ({}) => {
               caption={t("expertise.tools.tool4.years")}
               percentage={70}
             />
+            <Knowledge
+              title={t("expertise.tools.tool5.title")}
+              caption={t("expertise.tools.tool5.years")}
+              percentage={70}
+            />
           </ViewportContextProvider>
         </Grid>
         <Grid item xs={12} sm={4}>
@@ -89,6 +94,7 @@ const Expertise: React.FunctionComponent<ExpertiseProps> = ({}) => {
             />
             <Knowledge
               title={t("expertise.skills.skill3.title")}
+              caption={t("expertise.skills.skill3.caption")}
               percentage={80}
             />
             <Knowledge

@@ -8,8 +8,9 @@ export interface TimelineDescriptionProps {
   title: string;
   subtitle: string;
   subtitle2?: string;
-  descriptions?: (string | { section: string; descriptions: string[] })[];
+  descriptions?: string[];
   image?: string;
+  stack?: string;
 }
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -41,7 +42,7 @@ const useStyles = makeStyles((theme: Theme) =>
 
 const TimelineDescription: React.FunctionComponent<
   TimelineDescriptionProps
-> = ({ title, subtitle, subtitle2, descriptions, image }) => {
+> = ({ title, subtitle, subtitle2, children, descriptions, image, stack }) => {
   const classes = useStyles();
   const visible = useViewport();
   return (
@@ -61,23 +62,16 @@ const TimelineDescription: React.FunctionComponent<
               {subtitle2}
             </Typography>
           )}
+          {children}
           {descriptions &&
-            descriptions.map((description, index) =>
-              typeof description === "string" ? (
-                <CheckedTypography key={index}>{description}</CheckedTypography>
-              ) : (
-                <div key={index}>
-                  <Typography variant="h5" color="textSecondary" gutterBottom>
-                    {description.section}
-                  </Typography>
-                  {description.descriptions.map((description, index) => (
-                    <CheckedTypography key={index}>
-                      {description}
-                    </CheckedTypography>
-                  ))}
-                </div>
-              )
-            )}
+            descriptions.map((description, index) => (
+              <CheckedTypography key={index}>{description}</CheckedTypography>
+            ))}
+          {stack && (
+            <Typography gutterBottom variant="caption" color="primary">
+              {stack}
+            </Typography>
+          )}
         </div>
         {image && (
           <div className={classes.imageContainer}>

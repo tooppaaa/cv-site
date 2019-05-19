@@ -1,7 +1,6 @@
 import * as React from "react";
-import { Container, Typography, Grow } from "@material-ui/core";
+import { Container, Typography } from "@material-ui/core";
 import { useTranslation } from "react-i18next";
-import { useSpring, animated } from "react-spring";
 import Timeline from "../../molecules/Timeline";
 import TimelineElement from "../../molecules/TimelineElement";
 import TimelineDescription from "../../molecules/TimelineDescription";
@@ -13,14 +12,6 @@ import ames from "../../assets/ames.png";
 const Experience: React.FC = () => {
   const { t } = useTranslation();
 
-  const [visible, setVisible] = React.useState(false);
-  const props = useSpring({ opacity: visible ? 1 : 0, from: { opacity: 0 } });
-  const handleWaypointEnter = React.useCallback(() => setVisible(true), [
-    setVisible
-  ]);
-  const handleWaypointLeave = React.useCallback(() => setVisible(false), [
-    setVisible
-  ]);
   return (
     <Container>
       <Typography variant="h2" align="center">
@@ -34,22 +25,12 @@ const Experience: React.FC = () => {
             subtitle2={t("experience.enablon.subtitle2")}
             image={enablon}
             descriptions={[
-              {
-                section: t("experience.enablon.section1.section"),
-                descriptions: [
-                  t("experience.enablon.section1.bullet1"),
-                  t("experience.enablon.section1.bullet2"),
-                  t("experience.enablon.section1.bullet3")
-                ]
-              },
-              {
-                section: t("experience.enablon.section2.section"),
-                descriptions: [
-                  t("experience.enablon.section2.bullet1"),
-                  t("experience.enablon.section2.bullet2"),
-                  t("experience.enablon.section2.bullet3")
-                ]
-              }
+              t("experience.enablon.bullet1"),
+              t("experience.enablon.bullet2"),
+              t("experience.enablon.bullet3"),
+              t("experience.enablon.bullet4"),
+              t("experience.enablon.bullet5"),
+              t("experience.enablon.bullet6")
             ]}
           />
         </TimelineElement>
@@ -60,22 +41,12 @@ const Experience: React.FC = () => {
             subtitle2={t("experience.soliton.subtitle2")}
             image={soliton}
             descriptions={[
-              {
-                section: t("experience.soliton.section1.section"),
-                descriptions: [
-                  t("experience.soliton.section1.bullet1"),
-                  t("experience.soliton.section1.bullet2"),
-                  t("experience.soliton.section1.bullet3")
-                ]
-              },
-              {
-                section: t("experience.soliton.section2.section"),
-                descriptions: [
-                  t("experience.soliton.section2.bullet1"),
-                  t("experience.soliton.section2.bullet2"),
-                  t("experience.soliton.section2.bullet3")
-                ]
-              }
+              t("experience.soliton.bullet1"),
+              t("experience.soliton.bullet2"),
+              t("experience.soliton.bullet3"),
+              t("experience.soliton.bullet4"),
+              t("experience.soliton.bullet5"),
+              t("experience.soliton.bullet6")
             ]}
           />
         </TimelineElement>

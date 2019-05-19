@@ -35,16 +35,7 @@ const theme: ThemeOptions = {
         marginBottom: "1.5em"
       }
     },
-    MuiLink: {
-      root: {
-        transition: defaultTheme.transitions.create("color"),
-        textTransform: "uppercase",
-        fontWeight: 300,
-        "&:hover": {
-          color: "#03A9F4"
-        }
-      }
-    }
+    MuiLink: {}
   }
 };
 export default responsiveFontSizes(createMuiTheme(theme));

@@ -10,6 +10,7 @@ import Hobbies from "../organisms/Hobbies";
 import Footer from "../organisms/Footer";
 import Bio from "../organisms/Bio";
 import Section from "../atoms/Section";
+import Projects from "../organisms/Projects";
 
 export interface HomeProps {}
 
@@ -20,7 +21,7 @@ const Home: React.FunctionComponent<HomeProps> = ({}) => (
     <Section id="bio" alternate>
       <Bio />
     </Section>
-    <Section id="intersts">
+    <Section id="interests">
       <Interests />
     </Section>
     <Section id="education" alternate>
@@ -28,6 +29,9 @@ const Home: React.FunctionComponent<HomeProps> = ({}) => (
     </Section>
     <Section id="experience">
       <Experience />
+    </Section>
+    <Section id="projects">
+      <Projects />
     </Section>
     <Section id="expertise" alternate>
       <Expertise />

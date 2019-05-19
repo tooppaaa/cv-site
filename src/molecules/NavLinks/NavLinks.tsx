@@ -12,9 +12,16 @@ interface NavLinksProps {
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     link: {
+      transition: theme.transitions.create("color"),
+      textTransform: "uppercase",
+      fontWeight: 300,
+
       color: theme.palette.common.white,
       padding: theme.spacing(1),
 
+      "&:hover": {
+        color: theme.palette.primary.main
+      },
       [theme.breakpoints.down("sm")]: {
         display: "block",
         ...theme.typography.button

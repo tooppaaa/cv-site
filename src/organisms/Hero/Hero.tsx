@@ -17,12 +17,15 @@ const useStyles = makeStyles((theme: Theme) =>
       backgroundPositionX: "center",
       backgroundPositionY: "center",
       backgroundSize: "cover",
-      color: theme.palette.common.white,
+      color: theme.palette.common.white
+    },
+    container: {
       display: "flex",
       flexDirection: "column",
       alignItems: "center",
       justifyContent: "center",
-      position: "relative"
+      position: "relative",
+      height: "100%"
     },
     icon: {
       position: "absolute",
@@ -46,33 +49,35 @@ const Hero: React.FunctionComponent<HeroProps> = ({}) => {
   const { t } = useTranslation();
 
   return (
-    <Container className={classes.root}>
-      <Typography variant="h1" color="inherit" align="center" gutterBottom>
-        {t("hero.header")}
-      </Typography>
-      <Typography align="center" color="inherit" gutterBottom>
-        {t("hero.description")}
-      </Typography>
-      <div className={classes.actions}>
-        <Button
-          variant="contained"
-          color="primary"
-          className={classes.button}
-          size="large"
-        >
-          {t("hero.download")}
-        </Button>
-        <Button
-          variant="outlined"
-          color="primary"
-          className={classes.button}
-          size="large"
-        >
-          {t("hero.contact")}
-        </Button>
-      </div>
-      <FloatingArrow className={classes.icon} />
-    </Container>
+    <div className={classes.root}>
+      <Container className={classes.container}>
+        <Typography variant="h1" color="inherit" align="center" gutterBottom>
+          {t("hero.header")}
+        </Typography>
+        <Typography align="center" color="inherit" gutterBottom>
+          {t("hero.description")}
+        </Typography>
+        <div className={classes.actions}>
+          <Button
+            variant="contained"
+            color="primary"
+            className={classes.button}
+            size="large"
+          >
+            {t("hero.download")}
+          </Button>
+          <Button
+            variant="outlined"
+            color="primary"
+            className={classes.button}
+            size="large"
+          >
+            {t("hero.contact")}
+          </Button>
+        </div>
+        <FloatingArrow className={classes.icon} />
+      </Container>
+    </div>
   );
 };
 

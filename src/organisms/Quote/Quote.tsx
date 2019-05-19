@@ -16,7 +16,9 @@ const useStyles = makeStyles((theme: Theme) =>
       backgroundPositionY: "center",
       backgroundSize: "cover",
       position: "relative",
-      color: theme.palette.common.white,
+      color: theme.palette.common.white
+    },
+    container: {
       padding: theme.spacing(10)
     },
     quote: {
@@ -30,20 +32,22 @@ const Quote: React.FunctionComponent<QuoteProps> = ({}) => {
   const { t } = useTranslation();
 
   return (
-    <Container className={classes.root}>
-      <Typography
-        component="div"
-        variant="h3"
-        color="inherit"
-        align="center"
-        className={classes.quote}
-      >
-        {t("quote.quote")}
-      </Typography>
-      <Typography align="center" color="inherit">
-        {t("quote.author")}
-      </Typography>
-    </Container>
+    <div className={classes.root}>
+      <Container className={classes.container}>
+        <Typography
+          component="div"
+          variant="h3"
+          color="inherit"
+          align="center"
+          className={classes.quote}
+        >
+          {t("quote.quote")}
+        </Typography>
+        <Typography align="center" color="inherit">
+          {t("quote.author")}
+        </Typography>
+      </Container>
+    </div>
   );
 };
 

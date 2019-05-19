@@ -49,9 +49,11 @@ const Footer: React.FunctionComponent<FooterProps> = ({}) => {
 
   return (
     <footer className={classes.root}>
-      <Container className={classes.scrollTop}>
-        <ScrollTopBar />
-      </Container>
+      <div className={classes.scrollTop}>
+        <Container>
+          <ScrollTopBar />
+        </Container>
+      </div>
       <Container className={classes.content}>
         <div className={classes.leftPart}>
           <GetInTouch />
