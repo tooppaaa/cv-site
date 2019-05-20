@@ -21,7 +21,7 @@
     },
     "technology": {
       "title": "Technologie",
-      "description": "Chaque nouveau projet, nouvelle idée, nouvelle analyse est une opportunité d'enrichir mes connaissances sur les dernières technologies. Je suis constement en train de chercher des nouveautés pour les appliquer dans mes développements."
+      "description": "Chaque nouveau projet, nouvelle idée, nouvelle analyse est une opportunité d'enrichir mes connaissances sur les dernières technologies. Je suis constamment en train de chercher des nouveautés pour les appliquer dans mes développements."
     }
   },
   "education": {
@@ -88,7 +88,7 @@
       "title": "Anaba",
       "subtitle": "Novembre 2018 - Mai 2019, soirs et week-ends",
       "subtitle2": "Lancement MVP pour une startup",
-      "description": "<0>Anaba</0> est un gestionnaire des contacts pros qui organise simplement les informations sur vos prestataires et fournisseurs : contacts, documents, projets, notes, etc.",
+      "description": "<0>Anaba</0> est un gestionnaire de contacts professionnels qui organise simplement les informations sur vos prestataires et fournisseurs : contacts, documents, projets, notes, etc.",
       "bullet1": "Création de la plateforme en partant de zéro",
       "bullet2": "Décision d'architecture et de technologies",
       "bullet3": "Développement en utilisant les dessins fournis",
@@ -185,7 +185,7 @@
     "title": "Hobbies",
     "cooking": {
       "title": "Cuisine / Restaurant",
-      "description": "En tant que bon Français, bien manger est vraiment important pour moi. J'essaie de consommer un maximum local et de manière raisonné."
+      "description": "En tant que bon Français, bien manger est vraiment important pour moi. J'essaie un maximum de consommer local et de manière raisonnée."
     },
     "running": {
       "title": "Course à pied",
