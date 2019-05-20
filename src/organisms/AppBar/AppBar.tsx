@@ -51,11 +51,11 @@ const useStyles = makeStyles((theme: Theme) =>
       position: "absolute",
       transition: theme.transitions.create("padding"),
       top: 0,
-      padding: theme.spacing(3, 0),
+      padding: theme.spacing(2.5, 0),
       right: 15,
       zIndex: theme.zIndex.modal + 1,
       "&$scrolled": {
-        padding: theme.spacing(1, 0)
+        padding: theme.spacing(0.5, 0)
       }
     },
     grow: {
