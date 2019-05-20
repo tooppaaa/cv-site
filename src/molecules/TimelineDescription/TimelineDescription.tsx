@@ -25,6 +25,7 @@ const useStyles = makeStyles((theme: Theme) =>
       flexGrow: 1
     },
     imageContainer: {
+      minWidth: 150,
       maxWidth: "25vw",
       [theme.breakpoints.down("sm")]: {
         maxWidth: "auto",
