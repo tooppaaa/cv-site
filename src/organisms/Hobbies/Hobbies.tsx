@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Container, Grid } from "@material-ui/core";
+import { Container, Grid, Typography } from "@material-ui/core";
 import CookingHatIcon from "../../atoms/icons/CookingHat";
 import RunnerIcon from "../../atoms/icons/Runner";
 import CodeIcon from "../../atoms/icons/Code";
@@ -10,6 +10,9 @@ const Hobbies: React.FC = () => {
   const { t } = useTranslation();
   return (
     <Container>
+      <Typography variant="h2" align="center">
+        {t("hobbies.title")}
+      </Typography>
       <Grid container spacing={4}>
         <Grid item xs={12} sm={4}>
           <Interest

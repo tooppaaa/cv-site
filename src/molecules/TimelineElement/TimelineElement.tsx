@@ -1,6 +1,7 @@
 import * as React from "react";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 import { ViewportContextProvider } from "../../atoms/ViewportContext/ViewportContext";
+import classnames from "classnames";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -19,19 +20,35 @@ const useStyles = makeStyles((theme: Theme) =>
       top: 0,
       left: -13,
       border: `2px solid ${theme.palette.primary.main}`,
-      background: theme.palette.common.white,
+      backgroundColor: theme.palette.common.white,
       borderRadius: "50%",
-      verticalAlign: "top"
+      verticalAlign: "top",
+      transition: theme.transitions.create("background-color")
+    },
+    filled: {
+      backgroundColor: theme.palette.primary.main
     }
   })
 );
 
 const TimelineElement: React.FunctionComponent = ({ children }) => {
   const classes = useStyles();
+  const [isIn, setIn] = React.useState(false);
+  const handleMouseEnter = React.useCallback(() => setIn(true), [setIn]);
+  const handleMouseLeave = React.useCallback(() => setIn(false), [setIn]);
   return (
     <ViewportContextProvider>
-      <div className={classes.root}>
-        <div className={classes.circle} /> {children}
+      <div
+        className={classes.root}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
+        <div
+          className={classnames(classes.circle, {
+            [classes.filled]: isIn
+          })}
+        />{" "}
+        {children}
       </div>
     </ViewportContextProvider>
   );

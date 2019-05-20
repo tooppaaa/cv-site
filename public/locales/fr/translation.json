@@ -1,7 +1,7 @@
 {
   "hero": {
     "header": "Développeur Full-Stack basé à Nantes",
-    "description": "React.JS ~ Node.JS ~ C# ~ UI ~ UX",
+    "description": "React.JS ~ Node.JS ~ .Net ~ UI ~ UX",
     "download": "Télécharger CV",
     "contact": "Contact"
   },
@@ -117,7 +117,7 @@
         "years": "Expert"
       },
       "lang2": {
-        "title": "C#",
+        "title": ".Net",
         "years": ""
       },
       "lang3": {
@@ -165,7 +165,7 @@
       },
       "skill2": {
         "title": "Communication",
-        "caption": ""
+        "caption": "Toujours à l'écoute"
       },
       "skill3": {
         "title": "Gestion de projet",

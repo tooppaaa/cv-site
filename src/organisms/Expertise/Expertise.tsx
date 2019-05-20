@@ -88,12 +88,13 @@ const Expertise: React.FC = () => {
             />
             <Knowledge
               title={t("expertise.skills.skill2.title")}
-              percentage={70}
+              caption={t("expertise.skills.skill2.caption")}
+              percentage={85}
             />
             <Knowledge
               title={t("expertise.skills.skill3.title")}
               caption={t("expertise.skills.skill3.caption")}
-              percentage={80}
+              percentage={85}
             />
             <Knowledge
               title={t("expertise.skills.skill4.title")}

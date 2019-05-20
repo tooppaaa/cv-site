@@ -30,9 +30,13 @@ const useStyles = makeStyles((theme: Theme) =>
       background: theme.palette.primary.dark,
       height: 23,
       borderRadius: 15,
-
       border: `2px solid ${theme.palette.background.default}`,
-      minWidth: "5%"
+      minWidth: "5%",
+      transition: theme.transitions.create(["top", "height"]),
+      "&:hover": {
+        top: -2,
+        height: 27
+      }
     }
   })
 );
