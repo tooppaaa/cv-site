@@ -31,13 +31,13 @@ const Home: React.FC = () => (
     <Section id="expertise" alternate>
       <Expertise />
     </Section>
-    <Section id="education" alternate>
+    <Section id="education">
       <Education />
     </Section>
     <Section id="quote" noPadding>
       <Quote />
     </Section>
-    <Section id="hobbies" alternate>
+    <Section id="hobbies">
       <Hobbies />
     </Section>
     <Footer />
