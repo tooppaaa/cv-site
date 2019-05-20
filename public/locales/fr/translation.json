@@ -7,13 +7,13 @@
   },
   "bio": {
     "title": "Développeur Front-End, Back-End",
-    "p1": "Je suis un développeur web, front-end, back-end enthousiaste et motivé. Je suis passionné par la réalisation d'expériences utilisateurs et la création d’applications web en utilisant des outils novateurs. Mon expertise technique en constante progression grâce à une formation constante me permet d’expérimenter beaucoup de technologies au travers de projets variés. J'accorde une attention particulière à la communication et à une attitude positive, deux valeurs clés dans la réussite d'un projet.",
-    "p2": "Travaillant actuellement chez Enablon en tant que développeur logiciel, je mets en pratique mes connaissances, en améliorant et integrant de nouvelles fonctionalités dans un contexte agile."
+    "p1": "Je suis un développeur web, front-end, back-end enthousiaste et motivé. Je suis passionné par la réalisation d'expériences utilisateurs et la création d’applications web en utilisant des outils novateurs. Mon expertise technique toujours en progression grâce à une formation constante me permet d’expérimenter beaucoup de technologies au travers de projets variés. J'accorde une attention particulière à la communication et à une attitude positive, deux valeurs clés dans la réussite d'un projet.",
+    "p2": "Travaillant actuellement chez Enablon en tant que développeur logiciel, je mets en pratique mes connaissances, en améliorant et intégrant de nouvelles fonctionalités dans un contexte agile."
   },
   "interests": {
     "software": {
       "title": "Logiciel",
-      "description": "Je suis passionné par la création de logiciels agréables à utiliser avec une architecture et un design réfléchis. L'expérience developpeur est également clé dans la réussite d'un projet."
+      "description": "Je suis passionné par la création de logiciels performants avec une architecture et un design réfléchis. L'expérience developpeur est également clé dans la réussite d'un projet."
     },
     "frontend": {
       "title": "Front-end",
@@ -21,7 +21,7 @@
     },
     "technology": {
       "title": "Technologie",
-      "description": "Chaque nouveau projet, nouvelle idée, nouvelle analyse est une opportunité d'apprendre quelque chose sur les dernières technologies. Je suis constement entrain de chercher des nouveautés pour les appliquer dans mes développements."
+      "description": "Chaque nouveau projet, nouvelle idée, nouvelle analyse est une opportunité d'enrichir mes connaissances sur les dernières technologies. Je suis constement en train de chercher des nouveautés pour les appliquer dans mes développements."
     }
   },
   "education": {
@@ -88,12 +88,12 @@
       "title": "Anaba",
       "subtitle": "Novembre 2018 - Mai 2019, soirs et week-ends",
       "subtitle2": "Lancement MVP pour une startup",
-      "description": "<0>Anaba</0> est un gestionnaire des contacts pros qui organisant simplement les informations sur vos prestataires et fournisseurs : contacts, documents, projets, notes, etc.",
-      "bullet1": "Création de la plateforme en partant de zero",
+      "description": "<0>Anaba</0> est un gestionnaire des contacts pros qui organise simplement les informations sur vos prestataires et fournisseurs : contacts, documents, projets, notes, etc.",
+      "bullet1": "Création de la plateforme en partant de zéro",
       "bullet2": "Décision d'architecture et de technologies",
       "bullet3": "Développement en utilisant les dessins fournis",
       "bullet4": "Configuration Progressive Web App",
-      "bullet5": "Mise en place des environnements et deploiement continue",
+      "bullet5": "Mise en place des environnements et déploiement continue",
       "stack": "React.JS, Material UI, i18next, Apollo Client, GraphQL, Lambda, DynamoDB, Cognito, AWS, Gitlab"
     },
     "lifeevent": {
@@ -101,8 +101,8 @@
       "subtitle": "Juillet 2016 - Mai 2017, soirs et week-ends",
       "subtitle2": "Projet personnel",
       "description": "Mariage, concert, anniversaire ... Chaque événement important dans votre vie a besoin de son propre album pour se souvenir de ces beaux moments, à tout moment, n'importe où et partagés avec les personnes qui nous sont chères. <0>LifeEvent</0> permet de gérer ces moments !",
-      "bullet1": "Design et création de la plateforme en partant de zero",
-      "bullet2": "Implementation de solutions d'hebergement et redimensionnement de photos",
+      "bullet1": "Design et création de la plateforme en partant de zéro",
+      "bullet2": "Implementation de solutions d'hébergement et redimensionnement de photos",
       "bullet3": "Implémentation Progressive Web App (Android) pour la gestion hors-ligne des envois de photos",
       "bullet4": "Authentification et sécurité via token JWT",
       "stack": "React.JS, Material UI, redux, Web API, .Net Core, SQL, Azure, AzureDevOps"
@@ -185,7 +185,7 @@
     "title": "Hobbies",
     "cooking": {
       "title": "Cuisine / Restaurant",
-      "description": "En tant que bon Français, bien manger est vraiment important pour moi. J'essaye de consommer local et de manière raisonné un maximum."
+      "description": "En tant que bon Français, bien manger est vraiment important pour moi. J'essaie de consommer un maximum local et de manière raisonné."
     },
     "running": {
       "title": "Course à pied",
