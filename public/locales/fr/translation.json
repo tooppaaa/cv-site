@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "header": "Développeur Full-Stack basé à Nantes",
+    "description": "React.JS ~ Node.JS ~ C# ~ UI ~ UX",
+    "download": "Télécharger CV",
+    "contact": "Contact"
+  },
+  "bio": {
+    "title": "Développeur Front-End, Back-End",
+    "p1": "Je suis un développeur web, front-end, back-end enthousiaste et motivé. Je suis passionné par la réalisation d'expériences utilisateurs et la création d’applications web en utilisant des outils novateurs. Mon expertise technique en constante progression grâce à une formation constante me permet d’expérimenter beaucoup de technologies au travers de projets variés. J'accorde une attention particulière à la communication et à une attitude positive, deux valeurs clés dans la réussite d'un projet.",
+    "p2": "Travaillant actuellement chez Enablon en tant que développeur logiciel, je mets en pratique mes connaissances, en améliorant et integrant de nouvelles fonctionalités dans un contexte agile."
+  },
+  "interests": {
+    "software": {
+      "title": "Logiciel",
+      "description": "Je suis passionné par la création de logiciels agréables à utiliser avec une architecture et un design réfléchis. L'expérience developpeur est également clé dans la réussite d'un projet."
+    },
+    "frontend": {
+      "title": "Front-end",
+      "description": "J'adore créer des interfaces utilisateur offrant une expérience agréable par l'utilisation des dernières technologies en se concentrant sur React.JS."
+    },
+    "technology": {
+      "title": "Technologie",
+      "description": "Chaque nouveau projet, nouvelle idée, nouvelle analyse est une opportunité d'apprendre quelque chose sur les dernières technologies. Je suis constement entrain de chercher des nouveautés pour les appliquer dans mes développements."
+    }
+  },
+  "education": {
+    "title": "Éducation",
+    "ensisa": {
+      "title": "École d'ingénieur – ENSISA",
+      "subtitle": "2010-2013 @ Mulhouse, France",
+      "subtitle2": "École d'ingénieur spécialisée en informatique et réseaux"
+    },
+    "prepa": {
+      "title": "Classe préparatoire aux grandes écoles",
+      "subtitle": "2008-2010 @ Mulhouse, France"
+    },
+    "bac": {
+      "title": "Baccalauréat avec mention",
+      "subtitle": "2008 @ Mulhouse, France"
+    }
+  },
+  "experience": {
+    "title": "Expérience",
+    "enablon": {
+      "title": "Enablon",
+      "subtitle": "Juil 2016 - Maintenant @ Courbevoie / Bureau à domicile (Nantes)",
+      "subtitle2": "Développeur logiciel",
+      "bullet1": "Définition et implémentation d'interfaces et expériences utilisateurs, collaboration UI/UX designer (US)",
+      "bullet2": "Migration de composants jQuery vers React.JS",
+      "bullet3": "Mise en place de processus, documentations et lignes directrices pour les développeurs web",
+      "bullet4": "Analyses et décisions d’architecture, choix de frameworks, librairies, technologies",
+      "bullet5": "Amélioration continue de la plateforme, correction de bugs",
+      "bullet6": "Mise en place de tests unitaires, tests d'interfaces",
+      "bullet7": "Revue de code"
+    },
+    "soliton": {
+      "title": "Soliton IT Ltd",
+      "subtitle": "Oct 2013 - Juil 2016 @ Hemel Hempstead (UK) / Bureau à domicile (Courbevoie)",
+      "subtitle2": "Développeur logiciel",
+      "bullet1": "Création, déploiement, intégration continue d’un site de support client. Application web (Angular 1) suivant les principes de \"Material Design\". API Microsoft .NET.",
+      "bullet2": "Remaniement du site web de l'entreprise. Multi-langues, design adapté",
+      "bullet3": "Définition, création et déploiement en tant que web application d'une application mobile pour différents hôpitaux",
+      "bullet4": "Définition, implémentation et test de nouveaux modules pour le système d'information du département de radiologie des hôpitaux",
+      "bullet5": "Résolution de bugs et améliorations générales",
+      "bullet6": "Remaniement de l'interface utilisateur"
+    },
+
+    "airbus": {
+      "title": "Airbus",
+      "subtitle": "Mars 2013 - Août 2013 @ Toulouse, France",
+      "subtitle2": "Stagiaire développeur logiciel",
+      "bullet1": "Amélioration d'une solution, étude de l'existant et de son contexte",
+      "bullet2": "Faisabilité et propositions techniques, développement en ASP .NET et SQL Server, test et validation",
+      "bullet3": "Gestion de projets et validation par les utilisateurs"
+    },
+    "ames": {
+      "title": "AMES (Aircraft Maintenance Engineering Services)",
+      "subtitle": "Vacances 2011 - 2012 @ Saint-Louis, France",
+      "subtitle2": "Assistant ingénieur",
+      "bullet1": "Développement d'applications Java, modification d'un site web sous Joomla",
+      "bullet2": "Génération automatique et export de documents de maintenance d'avions et publication sur un site web"
+    }
+  },
+  "project": {
+    "title": "Projets",
+    "anaba": {
+      "title": "Anaba",
+      "subtitle": "Novembre 2018 - Mai 2019, soirs et week-ends",
+      "subtitle2": "Lancement MVP pour une startup",
+      "description": "<0>Anaba</0> est un gestionnaire des contacts pros qui organisant simplement les informations sur vos prestataires et fournisseurs : contacts, documents, projets, notes, etc.",
+      "bullet1": "Création de la plateforme en partant de zero",
+      "bullet2": "Décision d'architecture et de technologies",
+      "bullet3": "Développement en utilisant les dessins fournis",
+      "bullet4": "Configuration Progressive Web App",
+      "bullet5": "Mise en place des environnements et deploiement continue",
+      "stack": "React.JS, Material UI, i18next, Apollo Client, GraphQL, Lambda, DynamoDB, Cognito, AWS, Gitlab"
+    },
+    "lifeevent": {
+      "title": "LifeEvent",
+      "subtitle": "Juillet 2016 - Mai 2017, soirs et week-ends",
+      "subtitle2": "Projet personnel",
+      "description": "Mariage, concert, anniversaire ... Chaque événement important dans votre vie a besoin de son propre album pour se souvenir de ces beaux moments, à tout moment, n'importe où et partagés avec les personnes qui nous sont chères. <0>LifeEvent</0> permet de gérer ces moments !",
+      "bullet1": "Design et création de la plateforme en partant de zero",
+      "bullet2": "Implementation de solutions d'hebergement et redimensionnement de photos",
+      "bullet3": "Implémentation Progressive Web App (Android) pour la gestion hors-ligne des envois de photos",
+      "bullet4": "Authentification et sécurité via token JWT",
+      "stack": "React.JS, Material UI, redux, Web API, .Net Core, SQL, Azure, AzureDevOps"
+    }
+  },
+  "expertise": {
+    "title": "Expertise",
+    "languages": {
+      "title": "Technologies",
+      "lang1": {
+        "title": "React.JS",
+        "years": "Expert"
+      },
+      "lang2": {
+        "title": "C#",
+        "years": ""
+      },
+      "lang3": {
+        "title": "Node.JS, GraphQL",
+        "years": ""
+      },
+      "lang4": {
+        "title": "Web API",
+        "years": ""
+      },
+      "lang5": {
+        "title": "Autres",
+        "years": "SQL, Java, WPF"
+      }
+    },
+    "tools": {
+      "title": "Outils",
+      "tool1": {
+        "title": "Visual Studio / Visual Studio Code",
+        "years": ""
+      },
+      "tool2": {
+        "title": "Git",
+        "years": ""
+      },
+      "tool3": {
+        "title": "Azure DevOps, Gitlab",
+        "years": ""
+      },
+      "tool4": {
+        "title": "AWS",
+        "years": ""
+      },
+      "tool5": {
+        "title": "Azure",
+        "years": ""
+      }
+    },
+
+    "skills": {
+      "title": "Compétences",
+      "skill1": {
+        "title": "Travail d'équipe",
+        "caption": "Jamais seul"
+      },
+      "skill2": {
+        "title": "Communication",
+        "caption": ""
+      },
+      "skill3": {
+        "title": "Gestion de projet",
+        "caption": "Agile"
+      },
+      "skill4": {
+        "title": "Autodidacte",
+        "caption": "Complètement"
+      }
+    }
+  },
+  "quote": {
+    "quote": "“Design is not just what it looks like and feels like. Design is how it works.”",
+    "author": "- Steve Jobs"
+  },
+  "hobbies": {
+    "title": "Hobbies",
+    "cooking": {
+      "title": "Cuisine / Restaurant",
+      "description": "En tant que bon Français, bien manger est vraiment important pour moi. J'essaye de consommer local et de manière raisonné un maximum."
+    },
+    "running": {
+      "title": "Course à pied",
+      "description": "J'ai débuté la course à pied en 2015. Les premiers objectifs fûrent des semi-marathons, puis marathon (4h08), puis trails (45km pour le moment)!"
+    },
+    "development": {
+      "title": "Développement",
+      "description": "Après le travail ? Je continue de développer des applications soit en tant que projet personnel, soit pour aider des start-ups à monter leurs MVPs"
+    }
+  },
+  "footer": {
+    "getInTouch": "Prendre contact",
+    "letsTalk": "Si vous êtes à la recherche d'un développeur logiciel ou front-end pour vos futurs projets, contactez-moi.",
+    "contact": "Contact",
+    "socialMedia": "Réseaux sociaux",
+    "copyright": "Copyright © {{ year }} Clement DUNGLER"
+  }
+}
