@@ -31,7 +31,7 @@ const GetInTouch: React.FC = () => {
       <Button
         variant="outlined"
         color="primary"
-        href="mailto:clementdungle@gmail.com"
+        href="mailto:clementdungler@gmail.com"
       >
         {t("footer.contact")}
       </Button>

@@ -71,7 +71,7 @@ const Hero: React.FC = () => {
             color="primary"
             className={classes.button}
             size="large"
-            href="mailto:clementdungle@gmail.com"
+            href="mailto:clementdungler@gmail.com"
           >
             {t("hero.contact")}
           </Button>
