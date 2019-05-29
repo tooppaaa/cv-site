@@ -1,7 +1,7 @@
 import * as React from "react";
 import { useTranslation } from "react-i18next";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
-import { Container, Hidden } from "@material-ui/core";
+import { Container, Hidden, Typography } from "@material-ui/core";
 import ScrollTopBar from "../../atoms/ScrollTopBar";
 import GetInTouch from "../../molecules/GetInTouch";
 import FooterLinks from "../../molecules/FooterLinks";
@@ -57,6 +57,9 @@ const Footer: React.FC = () => {
           <GetInTouch />
           <FooterLinks links={links(t)} />
           <Copyright />
+          <Typography variant="caption" color="textSecondary">
+            1.0.0
+          </Typography>
         </div>
         <Hidden smDown>
           <SocialMedia className={classes.rightPart} />
