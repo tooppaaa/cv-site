@@ -17,7 +17,7 @@
     "react-spring": "^8.0.20",
     "react-transition-group": "^4.3.0",
     "react-waypoint": "^9.0.2",
-    "typescript": "3.4.5"
+    "typescript": "3.7.4"
   },
   "scripts": {
     "start": "react-scripts start",
