@@ -1353,10 +1353,12 @@
   resolved "https://registry.yarnpkg.com/@types/classnames/-/classnames-2.2.7.tgz#fb68cc9be8487e6ea5b13700e759bfbab7e0fefd"
   integrity sha512-rzOhiQ55WzAiFgXRtitP/ZUT8iVNyllEpylJ5zHzR4vArUvMB39GTk+Zon/uAM0JxEFAWnwsxC2gH8s+tZ3Myg==
 
-"@types/i18next@^12.1.0":
-  version "12.1.0"
-  resolved "https://registry.yarnpkg.com/@types/i18next/-/i18next-12.1.0.tgz#7c3fd3dbe03f9531147033773bbd0ca4f474a180"
-  integrity sha512-qLyqTkp3ZKHsSoX8CNVYcTyTkxlm0aRCUpaUVetgkSlSpiNCdWryOgaYwgbO04tJIfLgBXPcy0tJ3Nl/RagllA==
+"@types/i18next@^13.0.0":
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/@types/i18next/-/i18next-13.0.0.tgz#403ef338add0104e74d9759f1b39217e7c5d4084"
+  integrity sha512-gp/SIShAuf4WOqi8ey0nuI7qfWaVpMNCcs/xLygrh/QTQIXmlDC1E0TtVejweNW+7SGDY7g0lyxyKZIJuCKIJw==
+  dependencies:
+    i18next "*"
 
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.1"
@@ -4847,6 +4849,13 @@ i18next-xhr-backend@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/i18next-xhr-backend/-/i18next-xhr-backend-2.0.1.tgz#7af735ee1b0c6d4ce49fa5756591040a0fba6db7"
   integrity sha512-CP0XPjJsTE4hY1rM1KXFYo63Ib61EBLEcTvMDyJwr0vs9p/UTuA3ENCmzSs9+ghZgWSjdOigc0oUERHaxctbsQ==
+
+i18next@*:
+  version "19.0.2"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-19.0.2.tgz#d72502ef031403572703f2e9f013cae005265444"
+  integrity sha512-fBa43Ann2udP1CQAz3IQpOZ1dGAkmi3mMfzisOhH17igneSRbvZ7P2RNbL+L1iRYKMufBmVwnC7G3gqcyviZ9g==
+  dependencies:
+    "@babel/runtime" "^7.3.1"
 
 i18next@^15.1.1:
   version "15.1.1"
