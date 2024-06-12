@@ -9,6 +9,7 @@ const Avatar = () => {
         height={320}
         width={320}
         alt="me"
+        priority
         style={{
           objectFit: "cover",
         }}
