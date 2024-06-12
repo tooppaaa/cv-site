@@ -17,7 +17,7 @@ const Contact = () => {
           <span className="inline-block w-28">Langue</span>: Français, Anglais
         </li>
         <li>
-          <span className="inline-block w-28">Web</span>:
+          <span className="inline-block w-28">Web</span>:{" "}
           <a href="https://clementdungler.com">https://clementdungler.com</a>
         </li>
       </ul>

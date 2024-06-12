@@ -1,6 +1,7 @@
 import Avatar from "@/components/ui/avatar";
 import Contact from "@/components/contact";
 import Social from "@/components/social";
+import WhoAmI from "@/components/who-am-I";
 
 const Hero = () => {
   return (
@@ -20,25 +21,29 @@ const Hero = () => {
           data-aos="fade-up"
           data-aos-duration="800"
           data-aos-delay="400"
-          className="text-center text-3xl font-semibold md:text-6xl print:text-left"
+          className="mb-10 text-center text-2xl font-semibold md:text-6xl print:mb-0 print:text-left"
         >
-          Bonjour,
+          <span className="mb-4 text-lg">Bonjour !</span>
           <br />
-          <span>je suis </span>
-          <span className="text-nowrap text-primary">Clément DUNGLER</span>
+          <span>Je suis </span>
+          <span className="mt-4 block text-primary print:hidden" aria-hidden>
+            <WhoAmI />
+          </span>
+          <span className="hidden text-primary print:inline-block">
+            Clément DUNGLER
+          </span>
         </h1>
         <p
           data-aos="fade-up"
           data-aos-duration="800"
           data-aos-delay="400"
-          className="mb-5 mt-10 text-center text-lg font-light text-foreground-secondary print:text-left"
+          className="mt-5 hidden text-lg font-light text-foreground-secondary print:block"
         >
-          Je suis responsable R&D, achitecte, développeur.
+          Responsable R&D, achitecte, développeur.
           <br /> J&apos;apprécie l&apos;esprit entrepreneurial où tout est
           possible avec du travail et de la détermination.
           <br />
         </p>
-
         <Social />
       </div>
       <div id="background-wrap" className="pointer-events-none print:hidden">
