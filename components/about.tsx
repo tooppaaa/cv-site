@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div className="flex flex-col gap-8">
       <p
-        className="aos-init aos-animate text-foreground-secondary md:text-center print:text-left"
+        className="text-foreground-secondary md:text-center print:text-left"
         data-aos="fade-up"
         data-aos-duration="800"
         data-aos-delay="200"
@@ -89,7 +89,7 @@ const AboutImage = ({ src, start, size = "medium" }: AboutImageProps) => {
   return (
     <div
       className={cn(
-        "aos-init aos-animate relative size-40 overflow-hidden rounded-3xl grayscale sm:size-52 lg:size-72",
+        " relative size-40 overflow-hidden rounded-3xl grayscale sm:size-52 lg:size-72",
         size === "small" && "size-36 sm:size-40 lg:size-52"
       )}
       data-aos={start ? "fade-right" : "fade-left"}
@@ -126,7 +126,7 @@ const PillarContent = ({
   return (
     <div
       className={cn(
-        "aos-init aos-animate flex flex-col justify-center print:items-start",
+        " flex flex-col justify-center print:items-start",
         !start && "md:items-end",
         className
       )}

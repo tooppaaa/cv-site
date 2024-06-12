@@ -11,7 +11,7 @@ const Section = ({ children, title, ...props }: SectionProps) => {
     <section {...props} aria-label={title}>
       <div className="container my-auto mt-40 break-after-avoid md:mt-44 print:mt-8">
         <div
-          className="aos-init aos-animate relative mb-20 text-center print:mb-8"
+          className="relative mb-20 text-center print:mb-8"
           data-aos="fade-up"
           data-aos-duration="800"
         >

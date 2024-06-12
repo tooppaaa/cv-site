@@ -41,11 +41,7 @@ const Skills = () => {
     <div className="flex flex-col gap-8">
       <div className={"grid grid-cols-1 gap-8 md:grid-cols-2"}>
         <div>
-          <div
-            className="aos-init aos-animate"
-            data-aos="fade-right"
-            data-aos-duration="800"
-          >
+          <div className="" data-aos="fade-right" data-aos-duration="800">
             <h2 className="mb-5 text-2xl">Mes compétences et technologies</h2>
             <div className="text-foreground-secondary">
               <p className="mb-2">
@@ -86,9 +82,9 @@ interface SkillProps {
 const Skill = ({ label, percentage, levelLabel }: SkillProps) => {
   return (
     <div
-      className="aos-init aos-animate w-full"
+      className="w-full"
       data-aos="fade-up"
-      data-aos-duration="500"
+      data-aos-duration="800"
       data-aos-delay="200"
     >
       <div className="mb-1 flex items-center justify-between">
@@ -96,7 +92,7 @@ const Skill = ({ label, percentage, levelLabel }: SkillProps) => {
         {levelLabel && (
           <p
             className="text-primary print:text-xs"
-            data-aos-duration="1.5s"
+            data-aos-duration="800"
             data-aos-delay="0.5s"
           >
             {levelLabel}

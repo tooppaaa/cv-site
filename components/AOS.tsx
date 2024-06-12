@@ -10,6 +10,7 @@ const AOSInit = () => {
     AOS.init({
       easing: "ease-out-quad",
       duration: 1000,
+      offset: -100,
     });
   }, []);
 

@@ -12,7 +12,7 @@ import {
 const Social = () => {
   return (
     <div
-      className="aos-init aos-animate flex justify-center gap-6 print:hidden"
+      className="flex justify-center gap-6 print:hidden"
       data-aos="fade-up"
       data-aos-duration="800"
       data-aos-delay="500"

@@ -69,9 +69,9 @@ export default function RootLayout({
       )}
     >
       <body
-        className="min-h-screen "
+        className="min-h-screen overflow-x-hidden"
         data-aos-easing="ease"
-        data-aos-duration="400"
+        data-aos-duration="800"
         data-aos-delay="0"
       >
         <AOSInit />

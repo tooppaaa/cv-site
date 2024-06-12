@@ -91,13 +91,9 @@ const Experience = () => {
                 librairies, technologies
               </li>
               <li>
-                {" "}
                 Amélioration continue de la plateforme, correction de bugs
               </li>
-              <li>
-                {" "}
-                Mise en place de tests unitaires, tests d&apos;interfaces
-              </li>
+              <li>Mise en place de tests unitaires, tests d&apos;interfaces</li>
             </ul>
           }
         />

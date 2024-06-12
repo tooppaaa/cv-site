@@ -27,12 +27,12 @@ export const TimelineItem = ({
   return (
     <div
       className={cn(
-        "aos-init aos-animate relative print:break-inside-avoid",
+        " relative print:break-inside-avoid",
         "before:absolute before:-bottom-4 before:left-[-27px] before:top-0 before:size-3 before:rounded-full before:border-2 before:border-line before:bg-background before:transition-colors before:duration-300 before:ease-in-out before:content-[''] md:before:left-[-47px]",
         "hover:before:bg-primary"
       )}
       data-aos="fade-up"
-      data-aos-duration="400"
+      data-aos-duration="800"
       data-aos-delay="200"
     >
       <h3 className="mb-1 text-xl font-bold text-primary">{title}</h3>

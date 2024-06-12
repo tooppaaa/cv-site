@@ -56,7 +56,7 @@ const Project = ({
 }: ProjectProps) => {
   return (
     <div
-      className="aos-init aos-animate flex break-inside-avoid flex-col items-center gap-6 print:flex-row"
+      className="flex break-inside-avoid flex-col items-center gap-6 print:flex-row"
       data-aos={"fade-up"}
       data-aos-duration="800"
       data-aos-delay={(order + 1) * 150}

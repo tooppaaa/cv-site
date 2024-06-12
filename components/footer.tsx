@@ -13,11 +13,14 @@ function Footer() {
         target="_blank"
         className={cn(buttonVariants(), "mt-8")}
         download
+        data-aos="fade-up"
+        data-aos-duration="800"
+        data-aos-delay="500"
       >
         Télécharger mon CV
       </Link>
       <div
-        className="aos-init aos-animate mt-8 text-center"
+        className="mt-8 text-center"
         data-aos="fade-up"
         data-aos-duration="800"
         data-aos-delay="500"
