@@ -20,23 +20,27 @@ const Social = () => {
       <Link
         className={cn(buttonVariants({ size: "icon", variant: "outline" }))}
         href="https://github.com/tooppaaa"
+        target="_blank"
       >
         <IconGitHub className="size-5 text-inherit" />
       </Link>
       <Link
         className={cn(buttonVariants({ size: "icon", variant: "outline" }))}
         href="https://www.linkedin.com/in/clement-dungler/"
+        target="_blank"
       >
         <LinkedinIcon className="size-5 text-inherit" />
       </Link>
       <Link
         href="mailto:clementdungler@gmail.com"
         className={cn(buttonVariants({ size: "icon", variant: "outline" }))}
+        target="_blank"
       >
         <MailIcon className="size-5 text-inherit" />
       </Link>
       <Link
         href="tel:+33612571894"
+        target="_blank"
         className={cn(buttonVariants({ size: "icon", variant: "outline" }))}
       >
         <PhoneIcon className="size-5 text-inherit" />

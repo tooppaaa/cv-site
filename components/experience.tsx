@@ -14,7 +14,7 @@ const Experience = () => {
               <ul className="list-disc pl-4">
                 <li>
                   Promotion de la culture de l&apos;innovation à travers
-                  l&apos;nimation d&apos;atelier de génération d&apos;idées
+                  l&apos;animation d&apos;atelier de génération d&apos;idées
                 </li>
                 <li>Prototypage et expérimentation</li>
                 <li>
@@ -25,7 +25,7 @@ const Experience = () => {
               <p className="mt-2 font-semibold">Réalisation</p>
               <ul className="list-disc pl-4">
                 <li>
-                  Mise à jour automatique des mises à jour de convention
+                  Mise à jour automatique des modifications de convention
                   collective grâce à l&apos;IA dans les produits de paie
                 </li>
                 <li>
