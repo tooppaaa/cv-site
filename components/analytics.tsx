@@ -2,6 +2,7 @@
 
 import Script from "next/script";
 import { Analytics as VercelAnalytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const Analytics = () => {
   if (
@@ -18,6 +19,7 @@ const Analytics = () => {
       />
 
       <VercelAnalytics />
+      <SpeedInsights />
     </>
   );
 };

@@ -2,10 +2,9 @@ import "./global.css";
 
 import type { Metadata } from "next";
 import { Mulish } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import { cn } from "@/lib/utils";
+import Analytics from "@/components/analytics";
 import AOSInit from "@/components/AOS";
 
 import Footer from "../components/footer";
@@ -84,7 +83,6 @@ export default function RootLayout({
             {children}
             <Footer />
             <Analytics />
-            <SpeedInsights />
           </main>
         </div>
       </body>
