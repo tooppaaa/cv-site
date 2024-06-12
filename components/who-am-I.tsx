@@ -24,6 +24,7 @@ const WhoAmI = () => {
       }}
       options={{
         cursorClassName: "text-foreground",
+        loop: true,
       }}
     />
   );
