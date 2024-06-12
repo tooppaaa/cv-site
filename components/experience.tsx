@@ -35,7 +35,7 @@ const Experience = () => {
               <p className="mt-2 font-semibold">Management</p>
               <ul className="list-disc pl-4">
                 <li>
-                  Gestion d&apos;une équipe de 2 data scientits, 1 développeur
+                  Gestion d&apos;une équipe de 2 data scientists, 1 développeur
                   full-stack
                 </li>
               </ul>
