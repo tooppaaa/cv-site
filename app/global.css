@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --breakpoint-3xl: 1920px;
+
+    --color-background: 200 95 14;
+    --color-foreground: #fdfeff;
+    --color-foreground-secondary: oklch(0.75 0.02 270.05);
+    --color-foreground-light: oklch(0.22 0.03 266.26 / 0.5);
+
+    --color-line: #3f4551;
+
+    --color-primary: 43 100 51;
+
+    --color-neon-pink: oklch(71.7% 0.25 360);
+    --color-neon-lime: oklch(91.5% 0.258 129);
+    --color-neon-cyan: oklch(91.3% 0.139 195.8);
+  }
+  @media print {
+    :root {
+      --color-primary: 43 100 47;
+    }
+  }
+}
+::selection {
+  background-color: #47a3f3;
+  color: #fefefe;
+}
+
+@keyframes animateBubble {
+  0% {
+    margin-top: 1000px;
+  }
+
+  to {
+    margin-top: -100%;
+  }
+}
+
+@keyframes sideWays {
+  0% {
+    margin-left: 0;
+  }
+
+  to {
+    margin-left: 50px;
+  }
+}
+
+#background-wrap {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  top: 0;
+  opacity: 0.1;
+}
+
+.x1 {
+  animation:
+    animateBubble 25s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  left: 25px;
+  top: 5%;
+  transform: scale(0.6);
+}
+
+.x2 {
+  animation:
+    animateBubble 20s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  left: 5%;
+  top: 80%;
+  transform: scale(0.4);
+}
+
+.x3 {
+  animation:
+    animateBubble 28s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  left: 10%;
+  top: 40%;
+  transform: scale(0.7);
+}
+
+.x4 {
+  animation:
+    animateBubble 22s linear infinite,
+    sideWays 3s ease-in-out infinite alternate;
+  left: 20%;
+  top: 0;
+  transform: scale(0.3);
+}
+
+.x5 {
+  animation:
+    animateBubble 29s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  left: 30%;
+  top: 50%;
+  transform: scale(0.5);
+}
+
+.x6 {
+  animation:
+    animateBubble 21s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  left: 50%;
+  top: 0;
+  transform: scale(0.8);
+}
+
+.x7 {
+  animation:
+    animateBubble 20s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  left: 65%;
+  top: 70%;
+  transform: scale(0.4);
+}
+
+.x8 {
+  animation:
+    animateBubble 22s linear infinite,
+    sideWays 3s ease-in-out infinite alternate;
+  left: 80%;
+  top: 10%;
+  transform: scale(0.3);
+}
+
+.x9 {
+  animation:
+    animateBubble 29s linear infinite,
+    sideWays 4s ease-in-out infinite alternate;
+  left: 90%;
+  top: 50%;
+  transform: scale(0.6);
+}
+
+.x10 {
+  animation:
+    animateBubble 26s linear infinite,
+    sideWays 2s ease-in-out infinite alternate;
+  left: 80%;
+  top: 80%;
+  transform: scale(0.3);
+}
+
+.bubble {
+  box-shadow:
+    0 20px 30px rgba(0, 0, 0, 0.2),
+    inset 0 10px 30px 5px #fff;
+  height: 200px;
+  width: 200px;
+}
+
+.bubble,
+.bubble:after {
+  border-radius: 50%;
+  position: absolute;
+}
+
+.bubble:after {
+  background: radial-gradient(
+    ellipse at center,
+    hsla(0, 0%, 100%, 0.5) 0,
+    hsla(0, 0%, 100%, 0) 70%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#80ffffff",endColorstr="#00ffffff",GradientType=1);
+  box-shadow: inset 0 20px 30px hsla(0, 0%, 100%, 0.3);
+  content: "";
+  height: 180px;
+  left: 10px;
+  width: 180px;
+}
