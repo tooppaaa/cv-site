@@ -100,7 +100,7 @@ const Experience = () => {
         <TimelineItem
           title="Développeur logiciel"
           duration="oct. 2013 - juil. 2016 / 2 ans 10 mois @ Hemel Hempstead, Royaume-Uni"
-          subtitle="Solition IT "
+          subtitle="Soliton IT "
           text={
             <ul className="list-disc pl-4">
               <li>
