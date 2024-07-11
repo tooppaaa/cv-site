@@ -10,7 +10,7 @@ const Experience = () => {
           subtitle="Cegid"
           text={
             <>
-              <p className="mb-2 font-semibold">Innovation studio</p>
+              <p className="py-2 font-semibold">Innovation studio</p>
               <ul className="list-disc pl-4">
                 <li>
                   Promotion de la culture de l&apos;innovation à travers
@@ -22,7 +22,7 @@ const Experience = () => {
                   la R&D
                 </li>
               </ul>
-              <p className="mt-2 font-semibold">Réalisation</p>
+              <p className="py-2 font-semibold">Réalisation</p>
               <ul className="list-disc pl-4">
                 <li>
                   Mise à jour automatique des modifications de convention
@@ -32,14 +32,14 @@ const Experience = () => {
                   Mise à disposition d&apos;un GPTs interne pour le groupe
                 </li>
               </ul>
-              <p className="mt-2 font-semibold">Management</p>
+              <p className="py-2 font-semibold">Management</p>
               <ul className="list-disc pl-4">
                 <li>
                   Gestion d&apos;une équipe de 2 data scientists, 1 développeur
                   full-stack
                 </li>
               </ul>
-              <p className="mt-2 font-semibold">Mentorat</p>
+              <p className="py-2 font-semibold">Mentorat</p>
               <ul className="list-disc pl-4">
                 <li>
                   Accompagnement des CTOs des 3 promotions du Cegid Data Lab à
@@ -56,19 +56,29 @@ const Experience = () => {
           duration="janv. 2020 - déc. 2021 / 2 ans @ Nantes, France"
           subtitle="Talentsoft"
           text={
-            <ul className="list-disc pl-4">
-              <li>
-                Mise en place du design system et de sa promotion au sein des
-                développeurs, responsables produits
-              </li>
-              <li>Mise en place de communauté frontend et design system</li>
-              <li>
-                Définition et partage de la vision technique, des bonnes
-                pratiques, des outils
-              </li>
-              <li>Mise en accessibilité de certains modules</li>
-              <li>Mentorat et formation</li>
-            </ul>
+            <>
+              <p className="py-2 font-semibold">Réalisation</p>
+              <ul className="list-disc pl-4">
+                <li>
+                  Mise en place du design system et de sa promotion au sein des
+                  développeurs, responsables produits
+                </li>
+                <li>
+                  Définition et partage de la vision technique, des bonnes
+                  pratiques, des outils
+                </li>
+                <li>Mise en accessibilité de certains modules</li>
+              </ul>
+              <p className="py-2 font-semibold">Mentorat</p>
+              <ul className="list-disc pl-4">
+                <li>
+                  Pilotage technique des développeurs frontend sur les sujets
+                  transverses (env. 20 personnes)
+                </li>
+                <li>Mise en place de communauté frontend et design system</li>
+                <li>Accompagnement et formation</li>
+              </ul>
+            </>
           }
         />
         <TimelineItem
