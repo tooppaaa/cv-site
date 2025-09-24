@@ -31,7 +31,7 @@ const About = () => {
       <div className="grid gap-8 md:grid-cols-2">
         <PillarContent
           title="Famille"
-          description="Marié, papa d'un petit garçon de 3 ans"
+          description="Marié, papa, 2 enfants"
         />
 
         <div className="flex items-center justify-center gap-4 md:justify-start print:hidden">
