@@ -6,7 +6,7 @@ const Experience = () => {
       <Timeline>
         <TimelineItem
           title="Engineering Manager"
-          duration="janv. 2022 - aujourd'hui / 2 an 6 mois @ Nantes, France"
+          duration="janv. 2022 - aujourd'hui / 4 ans @ Nantes, France"
           subtitle="Cegid"
           text={
             <>
